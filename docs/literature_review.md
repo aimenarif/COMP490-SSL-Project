@@ -1,4 +1,4 @@
-Literature Review — SSL/TLS Vulnerabilities 
+SSL/TLS Vulnerabilities 
 
 SSL/TLS secures web traffic by encrypting it and authenticating servers. Despite standards changes, typical misconfigurations continue to be frequently noted, and attackers can intercept or interfere with traffic.
 
