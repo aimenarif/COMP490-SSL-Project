@@ -1,0 +1,27 @@
+# Nmap 7.98 scan initiated Tue Nov 25 16:41:43 2025 as: nmap --script ssl-enum-ciphers -p 443 -oN /Users/simrandhillon/Desktop/comp490/scans/nmap/www.mcgill.ca_nmap.txt www.mcgill.ca
+Nmap scan report for www.mcgill.ca (132.216.98.100)
+Host is up (0.071s latency).
+rDNS record for 132.216.98.100: webcache.it.mcgill.ca
+
+PORT    STATE SERVICE
+443/tcp open  https
+| ssl-enum-ciphers: 
+|   TLSv1.2: 
+|     ciphers: 
+|       TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (secp256r1) - A
+|     compressors: 
+|       NULL
+|     cipher preference: server
+|   TLSv1.3: 
+|     ciphers: 
+|       TLS_AKE_WITH_AES_128_GCM_SHA256 (secp256r1) - A
+|       TLS_AKE_WITH_AES_256_GCM_SHA384 (secp256r1) - A
+|       TLS_AKE_WITH_CHACHA20_POLY1305_SHA256 (secp256r1) - A
+|     cipher preference: server
+|_  least strength: A
+
+# Nmap done at Tue Nov 25 16:41:46 2025 -- 1 IP address (1 host up) scanned in 3.34 seconds

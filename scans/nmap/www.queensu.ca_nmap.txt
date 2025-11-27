@@ -1,0 +1,27 @@
+# Nmap 7.98 scan initiated Tue Nov 25 16:41:51 2025 as: nmap --script ssl-enum-ciphers -p 443 -oN /Users/simrandhillon/Desktop/comp490/scans/nmap/www.queensu.ca_nmap.txt www.queensu.ca
+Nmap scan report for www.queensu.ca (13.107.253.70)
+Host is up (0.016s latency).
+Other addresses for www.queensu.ca (not scanned): 2620:1ec:29:1::70 2620:1ec:48:1::70 13.107.226.70
+
+PORT    STATE SERVICE
+443/tcp open  https
+| ssl-enum-ciphers: 
+|   TLSv1.2: 
+|     ciphers: 
+|       TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (secp256r1) - A
+|       TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (dh 2048) - A
+|     compressors: 
+|       NULL
+|     cipher preference: server
+|   TLSv1.3: 
+|     ciphers: 
+|       TLS_AKE_WITH_AES_256_GCM_SHA384 (secp256r1) - A
+|       TLS_AKE_WITH_AES_128_GCM_SHA256 (secp256r1) - A
+|     cipher preference: server
+|_  least strength: A
+
+# Nmap done at Tue Nov 25 16:41:53 2025 -- 1 IP address (1 host up) scanned in 2.21 seconds

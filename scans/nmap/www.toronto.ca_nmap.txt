@@ -1,0 +1,18 @@
+# Nmap 7.98 scan initiated Tue Nov 25 16:41:48 2025 as: nmap --script ssl-enum-ciphers -p 443 -oN /Users/simrandhillon/Desktop/comp490/scans/nmap/www.toronto.ca_nmap.txt www.toronto.ca
+Nmap scan report for www.toronto.ca (3.175.64.123)
+Host is up (0.0091s latency).
+Other addresses for www.toronto.ca (not scanned): 3.175.64.33 3.175.64.37 3.175.64.121
+rDNS record for 3.175.64.123: server-3-175-64-123.yvr52.r.cloudfront.net
+
+PORT    STATE SERVICE
+443/tcp open  https
+| ssl-enum-ciphers: 
+|   TLSv1.3: 
+|     ciphers: 
+|       TLS_AKE_WITH_AES_128_GCM_SHA256 (X25519MLKEM768) - A
+|       TLS_AKE_WITH_AES_256_GCM_SHA384 (X25519MLKEM768) - A
+|       TLS_AKE_WITH_CHACHA20_POLY1305_SHA256 (X25519MLKEM768) - A
+|     cipher preference: server
+|_  least strength: A
+
+# Nmap done at Tue Nov 25 16:41:49 2025 -- 1 IP address (1 host up) scanned in 0.42 seconds

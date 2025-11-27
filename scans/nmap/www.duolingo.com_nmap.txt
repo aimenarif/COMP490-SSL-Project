@@ -1,0 +1,25 @@
+# Nmap 7.98 scan initiated Tue Nov 25 16:42:05 2025 as: nmap --script ssl-enum-ciphers -p 443 -oN /Users/simrandhillon/Desktop/comp490/scans/nmap/www.duolingo.com_nmap.txt www.duolingo.com
+Nmap scan report for www.duolingo.com (13.216.39.143)
+Host is up (0.086s latency).
+Other addresses for www.duolingo.com (not scanned): 54.165.118.203 54.196.108.60 54.167.144.150 98.91.162.91 54.242.188.117 52.205.16.85 107.22.197.24
+rDNS record for 13.216.39.143: ec2-13-216-39-143.compute-1.amazonaws.com
+
+PORT    STATE SERVICE
+443/tcp open  https
+| ssl-enum-ciphers: 
+|   TLSv1.2: 
+|     ciphers: 
+|       TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (secp256r1) - A
+|       TLS_RSA_WITH_AES_128_GCM_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CBC_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_GCM_SHA384 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_CBC_SHA256 (rsa 2048) - A
+|     compressors: 
+|       NULL
+|     cipher preference: server
+|_  least strength: A
+
+# Nmap done at Tue Nov 25 16:42:10 2025 -- 1 IP address (1 host up) scanned in 5.27 seconds

@@ -1,0 +1,28 @@
+# Nmap 7.98 scan initiated Tue Nov 25 16:41:40 2025 as: nmap --script ssl-enum-ciphers -p 443 -oN /Users/simrandhillon/Desktop/comp490/scans/nmap/www.canada.ca_nmap.txt www.canada.ca
+Nmap scan report for www.canada.ca (23.49.140.216)
+Host is up (0.0100s latency).
+Other addresses for www.canada.ca (not scanned): 2001:569:139:19e::fe9 2001:569:139:18e::fe9
+rDNS record for 23.49.140.216: a23-49-140-216.deploy.static.akamaitechnologies.com
+
+PORT    STATE SERVICE
+443/tcp open  https
+| ssl-enum-ciphers: 
+|   TLSv1.2: 
+|     ciphers: 
+|       TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (secp256r1) - A
+|     compressors: 
+|       NULL
+|     cipher preference: server
+|   TLSv1.3: 
+|     ciphers: 
+|       TLS_AKE_WITH_AES_128_CCM_8_SHA256 (secp256r1) - A
+|       TLS_AKE_WITH_AES_128_CCM_SHA256 (secp256r1) - A
+|       TLS_AKE_WITH_AES_128_GCM_SHA256 (secp256r1) - A
+|       TLS_AKE_WITH_AES_256_GCM_SHA384 (secp256r1) - A
+|     cipher preference: server
+|_  least strength: A
+
+# Nmap done at Tue Nov 25 16:41:41 2025 -- 1 IP address (1 host up) scanned in 0.56 seconds
