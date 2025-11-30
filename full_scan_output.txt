@@ -1,0 +1,2525 @@
+=== Running SSLyze scan for all hosts ===
+
+ CHECKING CONNECTIVITY TO SERVER(S)
+ ----------------------------------
+
+   www.ubc.ca:443            => 18.172.185.2 
+   www.toronto.ca:443        => 3.175.64.33 
+   www.udemy.com:443         => 104.16.143.237 
+   www.bcit.ca:443           => 142.232.230.11 
+   www.vancouver.ca:443      => 172.65.90.7 
+   www.khanacademy.org:443   => 151.101.21.42 
+   www.canada.ca:443         => 23.49.140.216 
+   www.queensu.ca:443        => 13.107.253.70 
+   kids.nationalgeographic.com:443 => 18.172.185.15 
+   www.codecademy.com:443    => 104.17.183.120 
+   www.sfu.ca:443            => 142.58.226.71 
+   www.mcgill.ca:443         => 132.216.98.100 
+   www.concordia.ca:443      => 132.205.244.70 
+   www.duolingo.com:443      => 44.220.104.18 
+
+
+ SCAN RESULTS FOR WWW.CANADA.CA:443 - 23.49.140.216
+ --------------------------------------------------
+
+ * Certificates Information:
+       Hostname sent for SNI:             www.canada.ca
+       Number of cert chains detected:    1 (RSAPublicKey)
+       Cert chain with SNI disabled:      Yes
+
+
+     Certificate Chain #1 (RSAPublicKey, SNI enabled)
+       SHA1 Fingerprint:                  88b31e93f35f1eb84afaa17a57012df599246bdd
+       Common Name:                       *.canada.ca
+       Issuer:                            GeoTrust TLS RSA CA G1
+       Serial Number:                     15126856936682029416720359947330444943
+       Not Before:                        2025-09-28
+       Not After:                         2026-09-29
+       Public Key Algorithm:              RSAPublicKey
+       Signature Algorithm:               sha256
+       Key Size:                          2048
+       Exponent:                          65537
+       SubjAltName - DNS Names:           ['*.canada.ca', 'canada.ca']
+     Trust
+       Android CA Store (16.0.0_r2):      OK - Certificate is trusted
+       Apple CA Store (iOS 18, iPadOS 18, macOS 15, tvOS 18, visionOS 2 and watchOS 11):OK - Certificate is trusted
+       Java CA Store (jdk-13.0.2):        OK - Certificate is trusted
+       Mozilla CA Store (2025-07-27):     OK - Certificate is trusted
+       Windows CA Store (2025-07-27):     OK - Certificate is trusted
+       Symantec 2018 Deprecation:         OK - Not a Symantec-issued certificate
+       Received Chain:                    *.canada.ca --> GeoTrust TLS RSA CA G1
+       Verified Chain:                    *.canada.ca --> GeoTrust TLS RSA CA G1 --> DigiCert Global Root G2
+       Received Chain Contains Anchor:    OK - Anchor certificate not sent
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      OK - No SHA1-signed certificate in the verified certificate chain
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          OK - 3 SCTs included
+     OCSP Stapling
+       OCSP Response Status:              SUCCESSFUL
+       Validation w/ Mozilla Store:       OK - Response is trusted
+       Responder Key Hash:                b'\x94O\xd4]\x8b\xe4\xa4\xe2\xa6\x80\xfe\xfd\xd8\xf9\x00\xef\xa3\xbe\x02W'
+       Cert Status:                       GOOD
+       Cert Serial Number:                15126856936682029416720359947330444943
+       This Update:                       2025-11-21
+       Next Update:                       2025-11-28
+
+     Certificate Chain with SNI disabled - can be ignored
+       SHA1 Fingerprint:                  88b31e93f35f1eb84afaa17a57012df599246bdd
+       Common Name:                       *.canada.ca
+       Issuer:                            GeoTrust TLS RSA CA G1
+       Serial Number:                     15126856936682029416720359947330444943
+       Not Before:                        2025-09-28
+       Not After:                         2026-09-29
+       Public Key Algorithm:              RSAPublicKey
+       Signature Algorithm:               sha256
+       Key Size:                          2048
+       Exponent:                          65537
+       SubjAltName - DNS Names:           ['*.canada.ca', 'canada.ca']
+     Trust
+       Android CA Store (16.0.0_r2):      OK - Certificate is trusted
+       Apple CA Store (iOS 18, iPadOS 18, macOS 15, tvOS 18, visionOS 2 and watchOS 11):OK - Certificate is trusted
+       Java CA Store (jdk-13.0.2):        OK - Certificate is trusted
+       Mozilla CA Store (2025-07-27):     OK - Certificate is trusted
+       Windows CA Store (2025-07-27):     OK - Certificate is trusted
+       Symantec 2018 Deprecation:         OK - Not a Symantec-issued certificate
+       Received Chain:                    *.canada.ca --> GeoTrust TLS RSA CA G1
+       Verified Chain:                    *.canada.ca --> GeoTrust TLS RSA CA G1 --> DigiCert Global Root G2
+       Received Chain Contains Anchor:    OK - Anchor certificate not sent
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      OK - No SHA1-signed certificate in the verified certificate chain
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          OK - 3 SCTs included
+     OCSP Stapling
+       OCSP Response Status:              SUCCESSFUL
+       Validation w/ Mozilla Store:       OK - Response is trusted
+       Responder Key Hash:                b'\x94O\xd4]\x8b\xe4\xa4\xe2\xa6\x80\xfe\xfd\xd8\xf9\x00\xef\xa3\xbe\x02W'
+       Cert Status:                       GOOD
+       Cert Serial Number:                15126856936682029416720359947330444943
+       This Update:                       2025-11-21
+       Next Update:                       2025-11-28
+
+ * SSL 2.0 Cipher Suites:
+     Attempted to connect using 7 cipher suites; the server rejected all cipher suites.
+
+ * SSL 3.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.1 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.2 Cipher Suites:
+     Attempted to connect using 156 cipher suites.
+
+     The server accepted the following 4 cipher suites:
+        TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384             256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384             256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256             128       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256             128       ECDH: secp256r1 (256 bits)
+
+     The group of cipher suites supported by the server has the following properties:
+       Forward Secrecy                    OK - Supported
+       Legacy RC4 Algorithm               OK - Not Supported
+
+
+ * TLS 1.3 Cipher Suites:
+     Attempted to connect using 5 cipher suites.
+
+     The server accepted the following 4 cipher suites:
+        TLS_AES_256_GCM_SHA384                            256       ECDH: secp256r1 (256 bits)
+        TLS_AES_128_GCM_SHA256                            128       ECDH: secp256r1 (256 bits)
+        TLS_AES_128_CCM_SHA256                            128       ECDH: secp256r1 (256 bits)
+        TLS_AES_128_CCM_8_SHA256                          128       ECDH: secp256r1 (256 bits)
+
+
+ * Deflate Compression:
+                                          OK - Compression disabled
+
+ * OpenSSL CCS Injection:
+                                          OK - Not vulnerable to OpenSSL CCS injection
+
+ * Downgrade Attacks:
+       TLS_FALLBACK_SCSV:                 OK - Supported
+
+ * OpenSSL Heartbleed:
+                                          OK - Not vulnerable to Heartbleed
+
+ * ROBOT Attack:
+                                          OK - Not vulnerable, RSA cipher suites not supported.
+
+ * Session Renegotiation:
+       Client Renegotiation DoS Attack:   OK - Not vulnerable
+       Secure Renegotiation:              OK - Supported
+
+ * Elliptic Curve Key Exchange:
+       Supported curves:                  secp256r1, secp384r1, secp521r1
+       Rejected curves:                   X25519, X448, secp160k1, secp160r1, secp160r2, secp192k1, secp192r1, secp224k1, secp224r1, secp256k1, sect163k1, sect163r1, sect163r2, sect193r1, sect193r2, sect233k1, sect233r1, sect239k1, sect283k1, sect283r1, sect409k1, sect409r1, sect571k1, sect571r1
+
+ * TLS Extended Master Secret Extension:
+                                          OK - Supported
+
+
+ SCAN RESULTS FOR WWW.CODECADEMY.COM:443 - 104.17.183.120
+ --------------------------------------------------------
+
+ * Certificates Information:
+       Hostname sent for SNI:             www.codecademy.com
+       Number of cert chains detected:    1 (ECPublicKey)
+       Cert chain with SNI disabled:      Yes
+
+
+     Certificate Chain #1 (ECPublicKey, SNI enabled)
+       SHA1 Fingerprint:                  2c959064978d7fdb7046f229369b3a452ce44d8a
+       Common Name:                       www.codecademy.com
+       Issuer:                            WE1
+       Serial Number:                     269583614936854876189544701723956053291
+       Not Before:                        2025-11-06
+       Not After:                         2026-02-05
+       Public Key Algorithm:              ECPublicKey
+       Signature Algorithm:               sha256
+       Key Size:                          256
+       Curve:                             secp256r1
+       SubjAltName - DNS Names:           ['www.codecademy.com']
+     Trust
+       Android CA Store (16.0.0_r2):      OK - Certificate is trusted
+       Apple CA Store (iOS 18, iPadOS 18, macOS 15, tvOS 18, visionOS 2 and watchOS 11):OK - Certificate is trusted
+       Java CA Store (jdk-13.0.2):        OK - Certificate is trusted
+       Mozilla CA Store (2025-07-27):     OK - Certificate is trusted
+       Windows CA Store (2025-07-27):     OK - Certificate is trusted
+       Symantec 2018 Deprecation:         OK - Not a Symantec-issued certificate
+       Received Chain:                    www.codecademy.com --> WE1 --> GTS Root R4
+       Verified Chain:                    www.codecademy.com --> WE1 --> GTS Root R4
+       Received Chain Contains Anchor:    OK - Anchor certificate not sent
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      OK - No SHA1-signed certificate in the verified certificate chain
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          WARNING - Only 2 SCTs included but Google recommends 3 or more
+     OCSP Stapling
+       OCSP Response Status:              SUCCESSFUL
+       Validation w/ Mozilla Store:       OK - Response is trusted
+       Responder Key Hash:                b'\x90w\x925g\xc4\xff\xa8\xcc\xa9\xe6{\xd9\x80y{\xcc\x93\xf98'
+       Cert Status:                       GOOD
+       Cert Serial Number:                269583614936854876189544701723956053291
+       This Update:                       2025-11-27
+       Next Update:                       2025-12-04
+
+     Certificate Chain with SNI disabled - can be ignored
+       SHA1 Fingerprint:                  2639b644a08d06c1ee54d141df3067c75d5c23fd
+       Common Name:                       codecademy.com
+       Issuer:                            WE1
+       Serial Number:                     19806910975124054444988571082284120662
+       Not Before:                        2025-11-24
+       Not After:                         2026-02-22
+       Public Key Algorithm:              ECPublicKey
+       Signature Algorithm:               sha256
+       Key Size:                          256
+       Curve:                             secp256r1
+       SubjAltName - DNS Names:           ['codecademy.com', '*.codecademy.com', '*.monolith.dev-eks.codecademy.com']
+     Trust
+       Android CA Store (16.0.0_r2):      OK - Certificate is trusted
+       Apple CA Store (iOS 18, iPadOS 18, macOS 15, tvOS 18, visionOS 2 and watchOS 11):OK - Certificate is trusted
+       Java CA Store (jdk-13.0.2):        OK - Certificate is trusted
+       Mozilla CA Store (2025-07-27):     OK - Certificate is trusted
+       Windows CA Store (2025-07-27):     OK - Certificate is trusted
+       Symantec 2018 Deprecation:         OK - Not a Symantec-issued certificate
+       Received Chain:                    codecademy.com --> WE1 --> GTS Root R4
+       Verified Chain:                    codecademy.com --> WE1 --> GTS Root R4
+       Received Chain Contains Anchor:    OK - Anchor certificate not sent
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      OK - No SHA1-signed certificate in the verified certificate chain
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          WARNING - Only 2 SCTs included but Google recommends 3 or more
+     OCSP Stapling
+       OCSP Response Status:              SUCCESSFUL
+       Validation w/ Mozilla Store:       OK - Response is trusted
+       Responder Key Hash:                b'\x90w\x925g\xc4\xff\xa8\xcc\xa9\xe6{\xd9\x80y{\xcc\x93\xf98'
+       Cert Status:                       GOOD
+       Cert Serial Number:                19806910975124054444988571082284120662
+       This Update:                       2025-11-24
+       Next Update:                       2025-12-01
+
+ * SSL 2.0 Cipher Suites:
+     Attempted to connect using 7 cipher suites; the server rejected all cipher suites.
+
+ * SSL 3.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.1 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.2 Cipher Suites:
+     Attempted to connect using 156 cipher suites.
+
+     The server accepted the following 6 cipher suites:
+        TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256       256       ECDH: X25519 (253 bits)
+        TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384             256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256             128       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256     256       ECDH: X25519 (253 bits)
+        TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384           256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256           128       ECDH: secp256r1 (256 bits)
+
+     The group of cipher suites supported by the server has the following properties:
+       Forward Secrecy                    OK - Supported
+       Legacy RC4 Algorithm               OK - Not Supported
+
+
+ * TLS 1.3 Cipher Suites:
+     Attempted to connect using 5 cipher suites.
+
+     The server accepted the following 3 cipher suites:
+        TLS_CHACHA20_POLY1305_SHA256                      256       ECDH: X25519 (253 bits)
+        TLS_AES_256_GCM_SHA384                            256       ECDH: X25519 (253 bits)
+        TLS_AES_128_GCM_SHA256                            128       ECDH: X25519 (253 bits)
+
+
+ * Deflate Compression:
+                                          OK - Compression disabled
+
+ * OpenSSL CCS Injection:
+                                          OK - Not vulnerable to OpenSSL CCS injection
+
+ * Downgrade Attacks:
+       TLS_FALLBACK_SCSV:                 OK - Supported
+
+ * OpenSSL Heartbleed:
+                                          OK - Not vulnerable to Heartbleed
+
+ * ROBOT Attack:
+                                          OK - Not vulnerable, RSA cipher suites not supported.
+
+ * Session Renegotiation:
+       Client Renegotiation DoS Attack:   OK - Not vulnerable
+       Secure Renegotiation:              OK - Supported
+
+ * Elliptic Curve Key Exchange:
+       Supported curves:                  X25519, secp256r1, secp384r1, secp521r1
+       Rejected curves:                   X448, secp160k1, secp160r1, secp160r2, secp192k1, secp192r1, secp224k1, secp224r1, secp256k1, sect163k1, sect163r1, sect163r2, sect193r1, sect193r2, sect233k1, sect233r1, sect239k1, sect283k1, sect283r1, sect409k1, sect409r1, sect571k1, sect571r1
+
+ * TLS Extended Master Secret Extension:
+                                          OK - Supported
+
+
+ SCAN RESULTS FOR WWW.UDEMY.COM:443 - 104.16.143.237
+ ---------------------------------------------------
+
+ * Certificates Information:
+       Hostname sent for SNI:             www.udemy.com
+       Number of cert chains detected:    2 (ECPublicKey, RSAPublicKey)
+       Cert chain with SNI disabled:      Yes
+
+
+     Certificate Chain #1 (ECPublicKey, SNI enabled)
+       SHA1 Fingerprint:                  451abbbb9ec6378d62519075489157b800d8a1f0
+       Common Name:                       udemy.com
+       Issuer:                            WE1
+       Serial Number:                     143788585215926617198779879702157312816
+       Not Before:                        2025-11-20
+       Not After:                         2026-02-18
+       Public Key Algorithm:              ECPublicKey
+       Signature Algorithm:               sha256
+       Key Size:                          256
+       Curve:                             secp256r1
+       SubjAltName - DNS Names:           ['udemy.com', '*.udemy.com']
+     Trust
+       Android CA Store (16.0.0_r2):      OK - Certificate is trusted
+       Apple CA Store (iOS 18, iPadOS 18, macOS 15, tvOS 18, visionOS 2 and watchOS 11):OK - Certificate is trusted
+       Java CA Store (jdk-13.0.2):        OK - Certificate is trusted
+       Mozilla CA Store (2025-07-27):     OK - Certificate is trusted
+       Windows CA Store (2025-07-27):     OK - Certificate is trusted
+       Symantec 2018 Deprecation:         OK - Not a Symantec-issued certificate
+       Received Chain:                    udemy.com --> WE1 --> GTS Root R4
+       Verified Chain:                    udemy.com --> WE1 --> GTS Root R4
+       Received Chain Contains Anchor:    OK - Anchor certificate not sent
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      OK - No SHA1-signed certificate in the verified certificate chain
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          WARNING - Only 2 SCTs included but Google recommends 3 or more
+     OCSP Stapling
+       OCSP Response Status:              SUCCESSFUL
+       Validation w/ Mozilla Store:       OK - Response is trusted
+       Responder Key Hash:                b'\x90w\x925g\xc4\xff\xa8\xcc\xa9\xe6{\xd9\x80y{\xcc\x93\xf98'
+       Cert Status:                       GOOD
+       Cert Serial Number:                143788585215926617198779879702157312816
+       This Update:                       2025-11-25
+       Next Update:                       2025-12-02
+
+
+     Certificate Chain #2 (RSAPublicKey, SNI enabled)
+       SHA1 Fingerprint:                  865587d6fff435b1fd89fac2d0d9cdb86a6cf97e
+       Common Name:                       udemy.com
+       Issuer:                            WR1
+       Serial Number:                     57126120549497149777982674366560726776
+       Not Before:                        2025-11-20
+       Not After:                         2026-02-18
+       Public Key Algorithm:              RSAPublicKey
+       Signature Algorithm:               sha256
+       Key Size:                          2048
+       Exponent:                          65537
+       SubjAltName - DNS Names:           ['udemy.com', '*.udemy.com']
+     Trust
+       Android CA Store (16.0.0_r2):      OK - Certificate is trusted
+       Apple CA Store (iOS 18, iPadOS 18, macOS 15, tvOS 18, visionOS 2 and watchOS 11):OK - Certificate is trusted
+       Java CA Store (jdk-13.0.2):        OK - Certificate is trusted
+       Mozilla CA Store (2025-07-27):     OK - Certificate is trusted
+       Windows CA Store (2025-07-27):     OK - Certificate is trusted
+       Symantec 2018 Deprecation:         OK - Not a Symantec-issued certificate
+       Received Chain:                    udemy.com --> WR1 --> GTS Root R1
+       Verified Chain:                    udemy.com --> WR1 --> GTS Root R1
+       Received Chain Contains Anchor:    OK - Anchor certificate not sent
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      OK - No SHA1-signed certificate in the verified certificate chain
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          WARNING - Only 2 SCTs included but Google recommends 3 or more
+     OCSP Stapling
+       OCSP Response Status:              SUCCESSFUL
+       Validation w/ Mozilla Store:       OK - Response is trusted
+       Responder Key Hash:                b'fiI\xd4\xde*\x9c\x91\x03\xcf\x89\x0e$\xb8\x0e0\x03n\x88.'
+       Cert Status:                       GOOD
+       Cert Serial Number:                57126120549497149777982674366560726776
+       This Update:                       2025-11-25
+       Next Update:                       2025-12-02
+
+     Certificate Chain with SNI disabled - can be ignored
+       SHA1 Fingerprint:                  451abbbb9ec6378d62519075489157b800d8a1f0
+       Common Name:                       udemy.com
+       Issuer:                            WE1
+       Serial Number:                     143788585215926617198779879702157312816
+       Not Before:                        2025-11-20
+       Not After:                         2026-02-18
+       Public Key Algorithm:              ECPublicKey
+       Signature Algorithm:               sha256
+       Key Size:                          256
+       Curve:                             secp256r1
+       SubjAltName - DNS Names:           ['udemy.com', '*.udemy.com']
+     Trust
+       Android CA Store (16.0.0_r2):      OK - Certificate is trusted
+       Apple CA Store (iOS 18, iPadOS 18, macOS 15, tvOS 18, visionOS 2 and watchOS 11):OK - Certificate is trusted
+       Java CA Store (jdk-13.0.2):        OK - Certificate is trusted
+       Mozilla CA Store (2025-07-27):     OK - Certificate is trusted
+       Windows CA Store (2025-07-27):     OK - Certificate is trusted
+       Symantec 2018 Deprecation:         OK - Not a Symantec-issued certificate
+       Received Chain:                    udemy.com --> WE1 --> GTS Root R4
+       Verified Chain:                    udemy.com --> WE1 --> GTS Root R4
+       Received Chain Contains Anchor:    OK - Anchor certificate not sent
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      OK - No SHA1-signed certificate in the verified certificate chain
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          WARNING - Only 2 SCTs included but Google recommends 3 or more
+     OCSP Stapling
+       OCSP Response Status:              SUCCESSFUL
+       Validation w/ Mozilla Store:       OK - Response is trusted
+       Responder Key Hash:                b'\x90w\x925g\xc4\xff\xa8\xcc\xa9\xe6{\xd9\x80y{\xcc\x93\xf98'
+       Cert Status:                       GOOD
+       Cert Serial Number:                143788585215926617198779879702157312816
+       This Update:                       2025-11-25
+       Next Update:                       2025-12-02
+
+ * SSL 2.0 Cipher Suites:
+     Attempted to connect using 7 cipher suites; the server rejected all cipher suites.
+
+ * SSL 3.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.1 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.2 Cipher Suites:
+     Attempted to connect using 156 cipher suites.
+
+     The server accepted the following 20 cipher suites:
+        TLS_RSA_WITH_AES_256_GCM_SHA384                   256                      
+        TLS_RSA_WITH_AES_256_CBC_SHA256                   256                      
+        TLS_RSA_WITH_AES_256_CBC_SHA                      256                      
+        TLS_RSA_WITH_AES_128_GCM_SHA256                   128                      
+        TLS_RSA_WITH_AES_128_CBC_SHA256                   128                      
+        TLS_RSA_WITH_AES_128_CBC_SHA                      128                      
+        TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256       256       ECDH: X25519 (253 bits)
+        TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384             256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384             256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA                256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256             128       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256             128       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA                128       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256     256       ECDH: X25519 (253 bits)
+        TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384           256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384           256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA              256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256           128       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256           128       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA              128       ECDH: secp256r1 (256 bits)
+
+     The group of cipher suites supported by the server has the following properties:
+       Forward Secrecy                    OK - Supported
+       Legacy RC4 Algorithm               OK - Not Supported
+
+
+ * TLS 1.3 Cipher Suites:
+     Attempted to connect using 5 cipher suites.
+
+     The server accepted the following 3 cipher suites:
+        TLS_CHACHA20_POLY1305_SHA256                      256       ECDH: X25519 (253 bits)
+        TLS_AES_256_GCM_SHA384                            256       ECDH: X25519 (253 bits)
+        TLS_AES_128_GCM_SHA256                            128       ECDH: X25519 (253 bits)
+
+
+ * Deflate Compression:
+                                          OK - Compression disabled
+
+ * OpenSSL CCS Injection:
+                                          OK - Not vulnerable to OpenSSL CCS injection
+
+ * Downgrade Attacks:
+       TLS_FALLBACK_SCSV:                 OK - Supported
+
+ * OpenSSL Heartbleed:
+                                          OK - Not vulnerable to Heartbleed
+
+ * ROBOT Attack:
+                                          OK - Not vulnerable.
+
+ * Session Renegotiation:
+       Client Renegotiation DoS Attack:   OK - Not vulnerable
+       Secure Renegotiation:              OK - Supported
+
+ * Elliptic Curve Key Exchange:
+       Supported curves:                  X25519, secp256r1, secp384r1, secp521r1
+       Rejected curves:                   X448, secp160k1, secp160r1, secp160r2, secp192k1, secp192r1, secp224k1, secp224r1, secp256k1, sect163k1, sect163r1, sect163r2, sect193r1, sect193r2, sect233k1, sect233r1, sect239k1, sect283k1, sect283r1, sect409k1, sect409r1, sect571k1, sect571r1
+
+ * TLS Extended Master Secret Extension:
+                                          OK - Supported
+
+
+ SCAN RESULTS FOR WWW.BCIT.CA:443 - 142.232.230.11
+ -------------------------------------------------
+
+ * Certificates Information:
+       Hostname sent for SNI:             www.bcit.ca
+       Number of cert chains detected:    1 (RSAPublicKey)
+       Cert chain with SNI disabled:      Yes
+
+
+     Certificate Chain #1 (RSAPublicKey, SNI enabled)
+       SHA1 Fingerprint:                  44003c3cc37f0343d795319d397c0defc682d0c4
+       Common Name:                       *.bcit.ca
+       Issuer:                            DigiCert Global G2 TLS RSA SHA256 2020 CA1
+       Serial Number:                     4338242642363018870667447039600795640
+       Not Before:                        2025-11-27
+       Not After:                         2026-12-15
+       Public Key Algorithm:              RSAPublicKey
+       Signature Algorithm:               sha256
+       Key Size:                          2048
+       Exponent:                          65537
+       SubjAltName - DNS Names:           ['*.bcit.ca', 'bcit.ca']
+     Trust
+       Android CA Store (16.0.0_r2):      OK - Certificate is trusted
+       Apple CA Store (iOS 18, iPadOS 18, macOS 15, tvOS 18, visionOS 2 and watchOS 11):OK - Certificate is trusted
+       Java CA Store (jdk-13.0.2):        OK - Certificate is trusted
+       Mozilla CA Store (2025-07-27):     OK - Certificate is trusted
+       Windows CA Store (2025-07-27):     OK - Certificate is trusted
+       Symantec 2018 Deprecation:         OK - Not a Symantec-issued certificate
+       Received Chain:                    *.bcit.ca --> DigiCert Global G2 TLS RSA SHA256 2020 CA1
+       Verified Chain:                    *.bcit.ca --> DigiCert Global G2 TLS RSA SHA256 2020 CA1 --> DigiCert Global Root G2
+       Received Chain Contains Anchor:    OK - Anchor certificate not sent
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      OK - No SHA1-signed certificate in the verified certificate chain
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          OK - 3 SCTs included
+     OCSP Stapling
+                                          NOT SUPPORTED - Server did not send back an OCSP response
+
+     Certificate Chain with SNI disabled - can be ignored
+       SHA1 Fingerprint:                  44003c3cc37f0343d795319d397c0defc682d0c4
+       Common Name:                       *.bcit.ca
+       Issuer:                            DigiCert Global G2 TLS RSA SHA256 2020 CA1
+       Serial Number:                     4338242642363018870667447039600795640
+       Not Before:                        2025-11-27
+       Not After:                         2026-12-15
+       Public Key Algorithm:              RSAPublicKey
+       Signature Algorithm:               sha256
+       Key Size:                          2048
+       Exponent:                          65537
+       SubjAltName - DNS Names:           ['*.bcit.ca', 'bcit.ca']
+     Trust
+       Android CA Store (16.0.0_r2):      OK - Certificate is trusted
+       Apple CA Store (iOS 18, iPadOS 18, macOS 15, tvOS 18, visionOS 2 and watchOS 11):OK - Certificate is trusted
+       Java CA Store (jdk-13.0.2):        OK - Certificate is trusted
+       Mozilla CA Store (2025-07-27):     OK - Certificate is trusted
+       Windows CA Store (2025-07-27):     OK - Certificate is trusted
+       Symantec 2018 Deprecation:         OK - Not a Symantec-issued certificate
+       Received Chain:                    *.bcit.ca --> DigiCert Global G2 TLS RSA SHA256 2020 CA1
+       Verified Chain:                    *.bcit.ca --> DigiCert Global G2 TLS RSA SHA256 2020 CA1 --> DigiCert Global Root G2
+       Received Chain Contains Anchor:    OK - Anchor certificate not sent
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      OK - No SHA1-signed certificate in the verified certificate chain
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          OK - 3 SCTs included
+     OCSP Stapling
+                                          NOT SUPPORTED - Server did not send back an OCSP response
+
+ * SSL 2.0 Cipher Suites:
+     Attempted to connect using 7 cipher suites; the server rejected all cipher suites.
+
+ * SSL 3.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.1 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.2 Cipher Suites:
+     Attempted to connect using 156 cipher suites.
+
+     The server accepted the following 13 cipher suites:
+        TLS_RSA_WITH_AES_256_GCM_SHA384                   256                      
+        TLS_RSA_WITH_AES_256_CBC_SHA256                   256                      
+        TLS_RSA_WITH_AES_256_CBC_SHA                      256                      
+        TLS_RSA_WITH_AES_128_GCM_SHA256                   128                      
+        TLS_RSA_WITH_AES_128_CBC_SHA256                   128                      
+        TLS_RSA_WITH_AES_128_CBC_SHA                      128                      
+        TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256       256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384             256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384             256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA                256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256             128       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256             128       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA                128       ECDH: secp256r1 (256 bits)
+
+     The group of cipher suites supported by the server has the following properties:
+       Forward Secrecy                    OK - Supported
+       Legacy RC4 Algorithm               OK - Not Supported
+
+
+ * TLS 1.3 Cipher Suites:
+     Attempted to connect using 5 cipher suites.
+
+     The server accepted the following 3 cipher suites:
+        TLS_CHACHA20_POLY1305_SHA256                      256       ECDH: X25519 (253 bits)
+        TLS_AES_256_GCM_SHA384                            256       ECDH: X25519 (253 bits)
+        TLS_AES_128_GCM_SHA256                            128       ECDH: X25519 (253 bits)
+
+
+ * Deflate Compression:
+                                          OK - Compression disabled
+
+ * OpenSSL CCS Injection:
+                                          OK - Not vulnerable to OpenSSL CCS injection
+
+ * Downgrade Attacks:
+       TLS_FALLBACK_SCSV:                 OK - Supported
+
+ * OpenSSL Heartbleed:
+                                          OK - Not vulnerable to Heartbleed
+
+ * ROBOT Attack:
+                                          OK - Not vulnerable.
+
+ * Session Renegotiation:
+       Client Renegotiation DoS Attack:   OK - Not vulnerable
+       Secure Renegotiation:              OK - Supported
+
+ * Elliptic Curve Key Exchange:
+       Supported curves:                  X25519, secp256r1, secp384r1
+       Rejected curves:                   X448, secp160k1, secp160r1, secp160r2, secp192k1, secp192r1, secp224k1, secp224r1, secp256k1, secp521r1, sect163k1, sect163r1, sect163r2, sect193r1, sect193r2, sect233k1, sect233r1, sect239k1, sect283k1, sect283r1, sect409k1, sect409r1, sect571k1, sect571r1
+
+ * TLS Extended Master Secret Extension:
+                                          OK - Supported
+
+
+ SCAN RESULTS FOR WWW.VANCOUVER.CA:443 - 172.65.90.7
+ ---------------------------------------------------
+
+ * Certificates Information:
+       Hostname sent for SNI:             www.vancouver.ca
+       Number of cert chains detected:    2 (ECPublicKey, RSAPublicKey)
+       Cert chain with SNI disabled:      No
+
+
+     Certificate Chain #1 (ECPublicKey, SNI enabled)
+       SHA1 Fingerprint:                  87ff7757c4e39c14d65ea8777ea5db5ff2c136b3
+       Common Name:                       vancouver.ca
+       Issuer:                            E7
+       Serial Number:                     573508761659364491044605721563121071020026
+       Not Before:                        2025-11-02
+       Not After:                         2026-01-31
+       Public Key Algorithm:              ECPublicKey
+       Signature Algorithm:               sha384
+       Key Size:                          256
+       Curve:                             secp256r1
+       SubjAltName - DNS Names:           ['*.vancouver.ca', 'vancouver.ca']
+     Trust
+       Android CA Store (16.0.0_r2):      OK - Certificate is trusted
+       Apple CA Store (iOS 18, iPadOS 18, macOS 15, tvOS 18, visionOS 2 and watchOS 11):OK - Certificate is trusted
+       Java CA Store (jdk-13.0.2):        OK - Certificate is trusted
+       Mozilla CA Store (2025-07-27):     OK - Certificate is trusted
+       Windows CA Store (2025-07-27):     OK - Certificate is trusted
+       Symantec 2018 Deprecation:         OK - Not a Symantec-issued certificate
+       Received Chain:                    vancouver.ca --> E7
+       Verified Chain:                    vancouver.ca --> E7 --> ISRG Root X1
+       Received Chain Contains Anchor:    OK - Anchor certificate not sent
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      OK - No SHA1-signed certificate in the verified certificate chain
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          WARNING - Only 2 SCTs included but Google recommends 3 or more
+     OCSP Stapling
+                                          NOT SUPPORTED - Server did not send back an OCSP response
+
+
+     Certificate Chain #2 (RSAPublicKey, SNI enabled)
+       SHA1 Fingerprint:                  de2d3cca42b04523f28f5992442c234c9ccdc1f8
+       Common Name:                       vancouver.ca
+       Issuer:                            R13
+       Serial Number:                     604313166695913461968880758337038967829171
+       Not Before:                        2025-11-02
+       Not After:                         2026-01-31
+       Public Key Algorithm:              RSAPublicKey
+       Signature Algorithm:               sha256
+       Key Size:                          2048
+       Exponent:                          65537
+       SubjAltName - DNS Names:           ['*.vancouver.ca', 'vancouver.ca']
+     Trust
+       Android CA Store (16.0.0_r2):      OK - Certificate is trusted
+       Apple CA Store (iOS 18, iPadOS 18, macOS 15, tvOS 18, visionOS 2 and watchOS 11):OK - Certificate is trusted
+       Java CA Store (jdk-13.0.2):        OK - Certificate is trusted
+       Mozilla CA Store (2025-07-27):     OK - Certificate is trusted
+       Windows CA Store (2025-07-27):     OK - Certificate is trusted
+       Symantec 2018 Deprecation:         OK - Not a Symantec-issued certificate
+       Received Chain:                    vancouver.ca --> R13
+       Verified Chain:                    vancouver.ca --> R13 --> ISRG Root X1
+       Received Chain Contains Anchor:    OK - Anchor certificate not sent
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      OK - No SHA1-signed certificate in the verified certificate chain
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          WARNING - Only 2 SCTs included but Google recommends 3 or more
+     OCSP Stapling
+                                          NOT SUPPORTED - Server did not send back an OCSP response
+
+ * SSL 2.0 Cipher Suites:
+     Attempted to connect using 7 cipher suites; the server rejected all cipher suites.
+
+ * SSL 3.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.1 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.2 Cipher Suites:
+     Attempted to connect using 156 cipher suites.
+
+     The server accepted the following 20 cipher suites:
+        TLS_RSA_WITH_AES_256_GCM_SHA384                   256                      
+        TLS_RSA_WITH_AES_256_CBC_SHA256                   256                      
+        TLS_RSA_WITH_AES_256_CBC_SHA                      256                      
+        TLS_RSA_WITH_AES_128_GCM_SHA256                   128                      
+        TLS_RSA_WITH_AES_128_CBC_SHA256                   128                      
+        TLS_RSA_WITH_AES_128_CBC_SHA                      128                      
+        TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256       256       ECDH: X25519 (253 bits)
+        TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384             256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384             256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA                256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256             128       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256             128       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA                128       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256     256       ECDH: X25519 (253 bits)
+        TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384           256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384           256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA              256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256           128       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256           128       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA              128       ECDH: secp256r1 (256 bits)
+
+     The group of cipher suites supported by the server has the following properties:
+       Forward Secrecy                    OK - Supported
+       Legacy RC4 Algorithm               OK - Not Supported
+
+
+ * TLS 1.3 Cipher Suites:
+     Attempted to connect using 5 cipher suites.
+
+     The server accepted the following 3 cipher suites:
+        TLS_CHACHA20_POLY1305_SHA256                      256       ECDH: X25519 (253 bits)
+        TLS_AES_256_GCM_SHA384                            256       ECDH: X25519 (253 bits)
+        TLS_AES_128_GCM_SHA256                            128       ECDH: X25519 (253 bits)
+
+
+ * Deflate Compression:
+                                          OK - Compression disabled
+
+ * OpenSSL CCS Injection:
+                                          OK - Not vulnerable to OpenSSL CCS injection
+
+ * Downgrade Attacks:
+       TLS_FALLBACK_SCSV:                 OK - Supported
+
+ * OpenSSL Heartbleed:
+                                          OK - Not vulnerable to Heartbleed
+
+ * ROBOT Attack:
+                                          OK - Not vulnerable.
+
+ * Session Renegotiation:
+       Client Renegotiation DoS Attack:   OK - Not vulnerable
+       Secure Renegotiation:              OK - Supported
+
+ * Elliptic Curve Key Exchange:
+       Supported curves:                  X25519, secp256r1, secp384r1, secp521r1
+       Rejected curves:                   X448, secp160k1, secp160r1, secp160r2, secp192k1, secp192r1, secp224k1, secp224r1, secp256k1, sect163k1, sect163r1, sect163r2, sect193r1, sect193r2, sect233k1, sect233r1, sect239k1, sect283k1, sect283r1, sect409k1, sect409r1, sect571k1, sect571r1
+
+ * TLS Extended Master Secret Extension:
+                                          OK - Supported
+
+
+ SCAN RESULTS FOR WWW.QUEENSU.CA:443 - 13.107.253.70
+ ---------------------------------------------------
+
+ * Certificates Information:
+       Hostname sent for SNI:             www.queensu.ca
+       Number of cert chains detected:    1 (RSAPublicKey)
+       Cert chain with SNI disabled:      Yes
+
+
+     Certificate Chain #1 (RSAPublicKey, SNI enabled)
+       SHA1 Fingerprint:                  af5f073a2e28de8a4a6ea57fedbad5c398c7d50a
+       Common Name:                       queensu.ca
+       Issuer:                            Sectigo Public Server Authentication CA OV R36
+       Serial Number:                     234524848409658333959095607646724994226
+       Not Before:                        2025-09-08
+       Not After:                         2026-09-08
+       Public Key Algorithm:              RSAPublicKey
+       Signature Algorithm:               sha256
+       Key Size:                          2048
+       Exponent:                          65537
+       SubjAltName - DNS Names:           ['queensu.ca', 'www.queensu.ca']
+     Trust
+       Android CA Store (16.0.0_r2):      OK - Certificate is trusted
+       Apple CA Store (iOS 18, iPadOS 18, macOS 15, tvOS 18, visionOS 2 and watchOS 11):OK - Certificate is trusted
+       Java CA Store (jdk-13.0.2):        OK - Certificate is trusted
+       Mozilla CA Store (2025-07-27):     OK - Certificate is trusted
+       Windows CA Store (2025-07-27):     OK - Certificate is trusted
+       Symantec 2018 Deprecation:         OK - Not a Symantec-issued certificate
+       Received Chain:                    queensu.ca --> Sectigo Public Server Authentication CA OV R36 --> Sectigo Public Server Authentication Root R46
+       Verified Chain:                    queensu.ca --> Sectigo Public Server Authentication CA OV R36 --> Sectigo Public Server Authentication Root R46
+       Received Chain Contains Anchor:    OK - Anchor certificate not sent
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      OK - No SHA1-signed certificate in the verified certificate chain
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          OK - 3 SCTs included
+     OCSP Stapling
+                                          NOT SUPPORTED - Server did not send back an OCSP response
+
+     Certificate Chain with SNI disabled - can be ignored
+       SHA1 Fingerprint:                  b5ab8bfa55d4ab611c42c5e894544ec295fc0468
+       Common Name:                       *.azureedge.net
+       Issuer:                            Microsoft Azure ECC TLS Issuing CA 07
+       Serial Number:                     1137339098842504846424891164117105339548251858
+       Not Before:                        2025-10-18
+       Not After:                         2026-04-16
+       Public Key Algorithm:              ECPublicKey
+       Signature Algorithm:               sha384
+       Key Size:                          256
+       Curve:                             secp256r1
+       SubjAltName - DNS Names:           ['*.azureedge.net']
+     Trust
+       Android CA Store (16.0.0_r2):      FAILED - Certificate is NOT Trusted: validation failed: leaf certificate has no matching subjectAltName (encountered processing <Certificate(subject=<Name(C=US,ST=WA,L=Redmond,O=Microsoft Corporation,CN=*.azureedge.net)>, ...)>)
+       Apple CA Store (iOS 18, iPadOS 18, macOS 15, tvOS 18, visionOS 2 and watchOS 11):FAILED - Certificate is NOT Trusted: validation failed: leaf certificate has no matching subjectAltName (encountered processing <Certificate(subject=<Name(C=US,ST=WA,L=Redmond,O=Microsoft Corporation,CN=*.azureedge.net)>, ...)>)
+       Java CA Store (jdk-13.0.2):        FAILED - Certificate is NOT Trusted: validation failed: leaf certificate has no matching subjectAltName (encountered processing <Certificate(subject=<Name(C=US,ST=WA,L=Redmond,O=Microsoft Corporation,CN=*.azureedge.net)>, ...)>)
+       Mozilla CA Store (2025-07-27):     FAILED - Certificate is NOT Trusted: validation failed: leaf certificate has no matching subjectAltName (encountered processing <Certificate(subject=<Name(C=US,ST=WA,L=Redmond,O=Microsoft Corporation,CN=*.azureedge.net)>, ...)>)
+       Windows CA Store (2025-07-27):     FAILED - Certificate is NOT Trusted: validation failed: leaf certificate has no matching subjectAltName (encountered processing <Certificate(subject=<Name(C=US,ST=WA,L=Redmond,O=Microsoft Corporation,CN=*.azureedge.net)>, ...)>)
+       Symantec 2018 Deprecation:         ERROR - Could not build verified chain (certificate untrusted?)
+       Received Chain:                    *.azureedge.net --> Microsoft Azure ECC TLS Issuing CA 07 --> DigiCert Global Root G3
+       Verified Chain:                    ERROR - Could not build verified chain (certificate untrusted?)
+       Received Chain Contains Anchor:    ERROR - Could not build verified chain (certificate untrusted?)
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      ERROR - Could not build verified chain (certificate untrusted?)
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          OK - 3 SCTs included
+     OCSP Stapling
+                                          NOT SUPPORTED - Server did not send back an OCSP response
+
+ * SSL 2.0 Cipher Suites:
+     Attempted to connect using 7 cipher suites; the server rejected all cipher suites.
+
+ * SSL 3.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.1 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.2 Cipher Suites:
+     Attempted to connect using 156 cipher suites.
+
+     The server accepted the following 6 cipher suites:
+        TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384             256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384             256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256             128       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256             128       ECDH: secp256r1 (256 bits)
+        TLS_DHE_RSA_WITH_AES_256_GCM_SHA384               256       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_AES_128_GCM_SHA256               128       DH (2048 bits) 
+
+     The group of cipher suites supported by the server has the following properties:
+       Forward Secrecy                    OK - Supported
+       Legacy RC4 Algorithm               OK - Not Supported
+
+
+ * TLS 1.3 Cipher Suites:
+     Attempted to connect using 5 cipher suites.
+
+     The server accepted the following 2 cipher suites:
+        TLS_AES_256_GCM_SHA384                            256       ECDH: secp256r1 (256 bits)
+        TLS_AES_128_GCM_SHA256                            128       ECDH: secp256r1 (256 bits)
+
+
+ * Deflate Compression:
+                                          OK - Compression disabled
+
+ * OpenSSL CCS Injection:
+                                          OK - Not vulnerable to OpenSSL CCS injection
+
+ * Downgrade Attacks:
+       TLS_FALLBACK_SCSV:                 OK - Supported
+
+ * OpenSSL Heartbleed:
+                                          OK - Not vulnerable to Heartbleed
+
+ * ROBOT Attack:
+                                          OK - Not vulnerable, RSA cipher suites not supported.
+
+ * Session Renegotiation:
+       Client Renegotiation DoS Attack:   OK - Not vulnerable
+       Secure Renegotiation:              OK - Supported
+
+ * Elliptic Curve Key Exchange:
+       Supported curves:                  secp256r1, secp384r1, secp521r1
+       Rejected curves:                   X25519, X448, secp160k1, secp160r1, secp160r2, secp192k1, secp192r1, secp224k1, secp224r1, secp256k1, sect163k1, sect163r1, sect163r2, sect193r1, sect193r2, sect233k1, sect233r1, sect239k1, sect283k1, sect283r1, sect409k1, sect409r1, sect571k1, sect571r1
+
+ * TLS Extended Master Secret Extension:
+                                          OK - Supported
+
+
+ SCAN RESULTS FOR WWW.KHANACADEMY.ORG:443 - 151.101.21.42
+ --------------------------------------------------------
+
+ * Certificates Information:
+       Hostname sent for SNI:             www.khanacademy.org
+       Number of cert chains detected:    1 (RSAPublicKey)
+       Cert chain with SNI disabled:      Yes
+
+
+     Certificate Chain #1 (RSAPublicKey, SNI enabled)
+       SHA1 Fingerprint:                  0f3fcd448f9a85349ec9703e4184ebdc79c9c296
+       Common Name:                       *.ar.khanacademy.org
+       Issuer:                            GlobalSign Atlas R3 DV TLS CA 2025 Q2
+       Serial Number:                     1413043386423830287108819887281464118
+       Not Before:                        2025-05-09
+       Not After:                         2026-06-10
+       Public Key Algorithm:              RSAPublicKey
+       Signature Algorithm:               sha256
+       Key Size:                          2048
+       Exponent:                          65537
+       SubjAltName - DNS Names:           ['*.ar.khanacademy.org', '*.az.khanacademy.org', '*.bg.khanacademy.org', '*.bn.khanacademy.org', '*.cs.khanacademy.org', '*.da.khanacademy.org', '*.de.khanacademy.org', '*.el.khanacademy.org', '*.es.khanacademy.org', '*.fa-af.khanacademy.org', '*.fa.khanacademy.org', '*.fr.khanacademy.org', '*.gu.khanacademy.org', '*.he.khanacademy.org', '*.hi.khanacademy.org', '*.hu.khanacademy.org', '*.hy.khanacademy.org', '*.id.khanacademy.org', '*.it.khanacademy.org', '*.ja.khanacademy.org', '*.ka.khanacademy.org', '*.kasandbox.org', '*.kastatic.org', '*.khanacademy.org', '*.km.khanacademy.org', '*.kn.khanacademy.org', '*.ko.khanacademy.org', '*.mn.khanacademy.org', '*.ms.khanacademy.org', '*.my.khanacademy.org', '*.nb.khanacademy.org', '*.nl.khanacademy.org', '*.pa.khanacademy.org', '*.pl.khanacademy.org', '*.pt-pt.khanacademy.org', '*.pt.khanacademy.org', '*.ro.khanacademy.org', '*.ru.khanacademy.org', '*.sr.khanacademy.org', '*.sv.khanacademy.org', '*.sw.khanacademy.org', '*.ta.khanacademy.org', '*.te.khanacademy.org', '*.th.khanacademy.org', '*.tr.khanacademy.org', '*.uk.khanacademy.org', '*.ur.khanacademy.org', '*.uz.khanacademy.org', '*.vi.khanacademy.org', '*.xh.khanacademy.org', '*.zero.khanacademy.org', '*.zh.khanacademy.org', '*.zu.khanacademy.org', 'content.khanacademy.org', 'fastly.kastatic.org', 'kasandbox.org', 'zero.khanacademy.org', '*.khan.co']
+     Trust
+       Android CA Store (16.0.0_r2):      OK - Certificate is trusted
+       Apple CA Store (iOS 18, iPadOS 18, macOS 15, tvOS 18, visionOS 2 and watchOS 11):OK - Certificate is trusted
+       Java CA Store (jdk-13.0.2):        OK - Certificate is trusted
+       Mozilla CA Store (2025-07-27):     OK - Certificate is trusted
+       Windows CA Store (2025-07-27):     OK - Certificate is trusted
+       Symantec 2018 Deprecation:         OK - Not a Symantec-issued certificate
+       Received Chain:                    *.ar.khanacademy.org --> GlobalSign Atlas R3 DV TLS CA 2025 Q2
+       Verified Chain:                    *.ar.khanacademy.org --> GlobalSign Atlas R3 DV TLS CA 2025 Q2 --> GlobalSign
+       Received Chain Contains Anchor:    OK - Anchor certificate not sent
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      OK - No SHA1-signed certificate in the verified certificate chain
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          OK - 3 SCTs included
+     OCSP Stapling
+       OCSP Response Status:              SUCCESSFUL
+       Validation w/ Mozilla Store:       OK - Response is trusted
+       Responder Key Hash:                b'Z\x87\xb2e7X%V\xbd\xc7\xcb\x16h\x0eMI\x96Ac['
+       Cert Status:                       GOOD
+       Cert Serial Number:                1413043386423830287108819887281464118
+       This Update:                       2025-11-28
+       Next Update:                       2025-11-28
+
+     Certificate Chain with SNI disabled - can be ignored
+       SHA1 Fingerprint:                  0f3fcd448f9a85349ec9703e4184ebdc79c9c296
+       Common Name:                       *.ar.khanacademy.org
+       Issuer:                            GlobalSign Atlas R3 DV TLS CA 2025 Q2
+       Serial Number:                     1413043386423830287108819887281464118
+       Not Before:                        2025-05-09
+       Not After:                         2026-06-10
+       Public Key Algorithm:              RSAPublicKey
+       Signature Algorithm:               sha256
+       Key Size:                          2048
+       Exponent:                          65537
+       SubjAltName - DNS Names:           ['*.ar.khanacademy.org', '*.az.khanacademy.org', '*.bg.khanacademy.org', '*.bn.khanacademy.org', '*.cs.khanacademy.org', '*.da.khanacademy.org', '*.de.khanacademy.org', '*.el.khanacademy.org', '*.es.khanacademy.org', '*.fa-af.khanacademy.org', '*.fa.khanacademy.org', '*.fr.khanacademy.org', '*.gu.khanacademy.org', '*.he.khanacademy.org', '*.hi.khanacademy.org', '*.hu.khanacademy.org', '*.hy.khanacademy.org', '*.id.khanacademy.org', '*.it.khanacademy.org', '*.ja.khanacademy.org', '*.ka.khanacademy.org', '*.kasandbox.org', '*.kastatic.org', '*.khanacademy.org', '*.km.khanacademy.org', '*.kn.khanacademy.org', '*.ko.khanacademy.org', '*.mn.khanacademy.org', '*.ms.khanacademy.org', '*.my.khanacademy.org', '*.nb.khanacademy.org', '*.nl.khanacademy.org', '*.pa.khanacademy.org', '*.pl.khanacademy.org', '*.pt-pt.khanacademy.org', '*.pt.khanacademy.org', '*.ro.khanacademy.org', '*.ru.khanacademy.org', '*.sr.khanacademy.org', '*.sv.khanacademy.org', '*.sw.khanacademy.org', '*.ta.khanacademy.org', '*.te.khanacademy.org', '*.th.khanacademy.org', '*.tr.khanacademy.org', '*.uk.khanacademy.org', '*.ur.khanacademy.org', '*.uz.khanacademy.org', '*.vi.khanacademy.org', '*.xh.khanacademy.org', '*.zero.khanacademy.org', '*.zh.khanacademy.org', '*.zu.khanacademy.org', 'content.khanacademy.org', 'fastly.kastatic.org', 'kasandbox.org', 'zero.khanacademy.org', '*.khan.co']
+     Trust
+       Android CA Store (16.0.0_r2):      OK - Certificate is trusted
+       Apple CA Store (iOS 18, iPadOS 18, macOS 15, tvOS 18, visionOS 2 and watchOS 11):OK - Certificate is trusted
+       Java CA Store (jdk-13.0.2):        OK - Certificate is trusted
+       Mozilla CA Store (2025-07-27):     OK - Certificate is trusted
+       Windows CA Store (2025-07-27):     OK - Certificate is trusted
+       Symantec 2018 Deprecation:         OK - Not a Symantec-issued certificate
+       Received Chain:                    *.ar.khanacademy.org --> GlobalSign Atlas R3 DV TLS CA 2025 Q2
+       Verified Chain:                    *.ar.khanacademy.org --> GlobalSign Atlas R3 DV TLS CA 2025 Q2 --> GlobalSign
+       Received Chain Contains Anchor:    OK - Anchor certificate not sent
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      OK - No SHA1-signed certificate in the verified certificate chain
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          OK - 3 SCTs included
+     OCSP Stapling
+       OCSP Response Status:              SUCCESSFUL
+       Validation w/ Mozilla Store:       OK - Response is trusted
+       Responder Key Hash:                b'\x8a\xca\xa0\xa3\xb24\xd2F\x82\x90\xb9k\xc3\x05\x04\xa7$\xeek\x13'
+       Cert Status:                       GOOD
+       Cert Serial Number:                1413043386423830287108819887281464118
+       This Update:                       2025-11-28
+       Next Update:                       2025-11-28
+
+ * SSL 2.0 Cipher Suites:
+     Attempted to connect using 7 cipher suites; the server rejected all cipher suites.
+
+ * SSL 3.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.1 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.2 Cipher Suites:
+     Attempted to connect using 156 cipher suites.
+
+     The server accepted the following 3 cipher suites:
+        TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256       256       ECDH: X25519 (253 bits)
+        TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384             256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256             128       ECDH: secp256r1 (256 bits)
+
+     The group of cipher suites supported by the server has the following properties:
+       Forward Secrecy                    OK - Supported
+       Legacy RC4 Algorithm               OK - Not Supported
+
+
+ * TLS 1.3 Cipher Suites:
+     Attempted to connect using 5 cipher suites.
+
+     The server accepted the following 3 cipher suites:
+        TLS_CHACHA20_POLY1305_SHA256                      256       ECDH: X25519 (253 bits)
+        TLS_AES_256_GCM_SHA384                            256       ECDH: X25519 (253 bits)
+        TLS_AES_128_GCM_SHA256                            128       ECDH: X25519 (253 bits)
+
+
+ * Deflate Compression:
+                                          OK - Compression disabled
+
+ * OpenSSL CCS Injection:
+                                          OK - Not vulnerable to OpenSSL CCS injection
+
+ * Downgrade Attacks:
+       TLS_FALLBACK_SCSV:                 OK - Supported
+
+ * OpenSSL Heartbleed:
+                                          OK - Not vulnerable to Heartbleed
+
+ * ROBOT Attack:
+                                          OK - Not vulnerable, RSA cipher suites not supported.
+
+ * Session Renegotiation:
+       Client Renegotiation DoS Attack:   OK - Not vulnerable
+       Secure Renegotiation:              OK - Supported
+
+ * Elliptic Curve Key Exchange:
+       Supported curves:                  X25519, secp256r1, secp384r1
+       Rejected curves:                   X448, secp160k1, secp160r1, secp160r2, secp192k1, secp192r1, secp224k1, secp224r1, secp256k1, secp521r1, sect163k1, sect163r1, sect163r2, sect193r1, sect193r2, sect233k1, sect233r1, sect239k1, sect283k1, sect283r1, sect409k1, sect409r1, sect571k1, sect571r1
+
+ * TLS Extended Master Secret Extension:
+                                          OK - Supported
+
+
+ SCAN RESULTS FOR WWW.MCGILL.CA:443 - 132.216.98.100
+ ---------------------------------------------------
+
+ * Certificates Information:
+       Hostname sent for SNI:             www.mcgill.ca
+       Number of cert chains detected:    1 (RSAPublicKey)
+       Cert chain with SNI disabled:      Yes
+
+
+     Certificate Chain #1 (RSAPublicKey, SNI enabled)
+       SHA1 Fingerprint:                  691c0a3479216df0e3a8abcae247c032e1325012
+       Common Name:                       *.mcgill.ca
+       Issuer:                            DigiCert Global G2 TLS RSA SHA256 2020 CA1
+       Serial Number:                     6808092739105453693648316313530460691
+       Not Before:                        2025-10-03
+       Not After:                         2026-10-08
+       Public Key Algorithm:              RSAPublicKey
+       Signature Algorithm:               sha256
+       Key Size:                          2048
+       Exponent:                          65537
+       SubjAltName - DNS Names:           ['*.mcgill.ca', 'mcgill.ca']
+     Trust
+       Android CA Store (16.0.0_r2):      OK - Certificate is trusted
+       Apple CA Store (iOS 18, iPadOS 18, macOS 15, tvOS 18, visionOS 2 and watchOS 11):OK - Certificate is trusted
+       Java CA Store (jdk-13.0.2):        OK - Certificate is trusted
+       Mozilla CA Store (2025-07-27):     OK - Certificate is trusted
+       Windows CA Store (2025-07-27):     OK - Certificate is trusted
+       Symantec 2018 Deprecation:         OK - Not a Symantec-issued certificate
+       Received Chain:                    *.mcgill.ca --> DigiCert Global G2 TLS RSA SHA256 2020 CA1 --> DigiCert Global Root G2
+       Verified Chain:                    *.mcgill.ca --> DigiCert Global G2 TLS RSA SHA256 2020 CA1 --> DigiCert Global Root G2
+       Received Chain Contains Anchor:    WARNING - Received certificate chain contains the anchor certificate
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      OK - No SHA1-signed certificate in the verified certificate chain
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          OK - 3 SCTs included
+     OCSP Stapling
+                                          NOT SUPPORTED - Server did not send back an OCSP response
+
+     Certificate Chain with SNI disabled - can be ignored
+       SHA1 Fingerprint:                  691c0a3479216df0e3a8abcae247c032e1325012
+       Common Name:                       *.mcgill.ca
+       Issuer:                            DigiCert Global G2 TLS RSA SHA256 2020 CA1
+       Serial Number:                     6808092739105453693648316313530460691
+       Not Before:                        2025-10-03
+       Not After:                         2026-10-08
+       Public Key Algorithm:              RSAPublicKey
+       Signature Algorithm:               sha256
+       Key Size:                          2048
+       Exponent:                          65537
+       SubjAltName - DNS Names:           ['*.mcgill.ca', 'mcgill.ca']
+     Trust
+       Android CA Store (16.0.0_r2):      OK - Certificate is trusted
+       Apple CA Store (iOS 18, iPadOS 18, macOS 15, tvOS 18, visionOS 2 and watchOS 11):OK - Certificate is trusted
+       Java CA Store (jdk-13.0.2):        OK - Certificate is trusted
+       Mozilla CA Store (2025-07-27):     OK - Certificate is trusted
+       Windows CA Store (2025-07-27):     OK - Certificate is trusted
+       Symantec 2018 Deprecation:         OK - Not a Symantec-issued certificate
+       Received Chain:                    *.mcgill.ca --> DigiCert Global G2 TLS RSA SHA256 2020 CA1 --> DigiCert Global Root G2
+       Verified Chain:                    *.mcgill.ca --> DigiCert Global G2 TLS RSA SHA256 2020 CA1 --> DigiCert Global Root G2
+       Received Chain Contains Anchor:    WARNING - Received certificate chain contains the anchor certificate
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      OK - No SHA1-signed certificate in the verified certificate chain
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          OK - 3 SCTs included
+     OCSP Stapling
+                                          NOT SUPPORTED - Server did not send back an OCSP response
+
+ * SSL 2.0 Cipher Suites:
+     Attempted to connect using 7 cipher suites; the server rejected all cipher suites.
+
+ * SSL 3.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.1 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.2 Cipher Suites:
+     Attempted to connect using 156 cipher suites.
+
+     The server accepted the following 5 cipher suites:
+        TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256       256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384             256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384             256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256             128       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256             128       ECDH: secp256r1 (256 bits)
+
+     The group of cipher suites supported by the server has the following properties:
+       Forward Secrecy                    OK - Supported
+       Legacy RC4 Algorithm               OK - Not Supported
+
+
+ * TLS 1.3 Cipher Suites:
+     Attempted to connect using 5 cipher suites.
+
+     The server accepted the following 3 cipher suites:
+        TLS_CHACHA20_POLY1305_SHA256                      256       ECDH: X25519 (253 bits)
+        TLS_AES_256_GCM_SHA384                            256       ECDH: X25519 (253 bits)
+        TLS_AES_128_GCM_SHA256                            128       ECDH: X25519 (253 bits)
+
+
+ * Deflate Compression:
+                                          OK - Compression disabled
+
+ * OpenSSL CCS Injection:
+                                          OK - Not vulnerable to OpenSSL CCS injection
+
+ * Downgrade Attacks:
+       TLS_FALLBACK_SCSV:                 OK - Supported
+
+ * OpenSSL Heartbleed:
+                                          OK - Not vulnerable to Heartbleed
+
+ * ROBOT Attack:
+                                          OK - Not vulnerable, RSA cipher suites not supported.
+
+ * Session Renegotiation:
+       Client Renegotiation DoS Attack:   OK - Not vulnerable
+       Secure Renegotiation:              OK - Supported
+
+ * Elliptic Curve Key Exchange:
+       Supported curves:                  X25519, secp256r1, secp384r1
+       Rejected curves:                   X448, secp160k1, secp160r1, secp160r2, secp192k1, secp192r1, secp224k1, secp224r1, secp256k1, secp521r1, sect163k1, sect163r1, sect163r2, sect193r1, sect193r2, sect233k1, sect233r1, sect239k1, sect283k1, sect283r1, sect409k1, sect409r1, sect571k1, sect571r1
+
+ * TLS Extended Master Secret Extension:
+                                          OK - Supported
+
+
+ SCAN RESULTS FOR WWW.UBC.CA:443 - 18.172.185.2
+ ----------------------------------------------
+
+ * Certificates Information:
+       Hostname sent for SNI:             www.ubc.ca
+       Number of cert chains detected:    1 (RSAPublicKey)
+       Cert chain with SNI disabled:      No
+
+
+     Certificate Chain #1 (RSAPublicKey, SNI enabled)
+       SHA1 Fingerprint:                  c7a0bd776c55124fe3772241ffe92b24f6b931af
+       Common Name:                       www.ubc.ca
+       Issuer:                            Amazon RSA 2048 M02
+       Serial Number:                     16389246843378922273994113203179541946
+       Not Before:                        2025-04-28
+       Not After:                         2026-05-28
+       Public Key Algorithm:              RSAPublicKey
+       Signature Algorithm:               sha256
+       Key Size:                          2048
+       Exponent:                          65537
+       SubjAltName - DNS Names:           ['www.ubc.ca', 'www.ubc-prod.it.ubc.ca']
+     Trust
+       Android CA Store (16.0.0_r2):      OK - Certificate is trusted
+       Apple CA Store (iOS 18, iPadOS 18, macOS 15, tvOS 18, visionOS 2 and watchOS 11):OK - Certificate is trusted
+       Java CA Store (jdk-13.0.2):        OK - Certificate is trusted
+       Mozilla CA Store (2025-07-27):     OK - Certificate is trusted
+       Windows CA Store (2025-07-27):     OK - Certificate is trusted
+       Symantec 2018 Deprecation:         OK - Not a Symantec-issued certificate
+       Received Chain:                    www.ubc.ca --> Amazon RSA 2048 M02 --> Amazon Root CA 1
+       Verified Chain:                    www.ubc.ca --> Amazon RSA 2048 M02 --> Amazon Root CA 1
+       Received Chain Contains Anchor:    OK - Anchor certificate not sent
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      OK - No SHA1-signed certificate in the verified certificate chain
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          OK - 3 SCTs included
+     OCSP Stapling
+       OCSP Response Status:              SUCCESSFUL
+       Validation w/ Mozilla Store:       OK - Response is trusted
+       Responder Key Hash:                b'\xc01R\xcdZP\xc3\x82|tq\xce\xcb\xe9\x9c\xf9z\xeb\x82\xe2'
+       Cert Status:                       GOOD
+       Cert Serial Number:                16389246843378922273994113203179541946
+       This Update:                       2025-11-27
+       Next Update:                       2025-12-04
+
+ * SSL 2.0 Cipher Suites:
+     Attempted to connect using 7 cipher suites; the server rejected all cipher suites.
+
+ * SSL 3.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.1 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.2 Cipher Suites:
+     Attempted to connect using 156 cipher suites.
+
+     The server accepted the following 3 cipher suites:
+        TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256       256       ECDH: X25519 (253 bits)
+        TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384             256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256             128       ECDH: secp256r1 (256 bits)
+
+     The group of cipher suites supported by the server has the following properties:
+       Forward Secrecy                    OK - Supported
+       Legacy RC4 Algorithm               OK - Not Supported
+
+
+ * TLS 1.3 Cipher Suites:
+     Attempted to connect using 5 cipher suites.
+
+     The server accepted the following 3 cipher suites:
+        TLS_CHACHA20_POLY1305_SHA256                      256       ECDH: X25519 (253 bits)
+        TLS_AES_256_GCM_SHA384                            256       ECDH: X25519 (253 bits)
+        TLS_AES_128_GCM_SHA256                            128       ECDH: X25519 (253 bits)
+
+
+ * Deflate Compression:
+                                          OK - Compression disabled
+
+ * OpenSSL CCS Injection:
+                                          OK - Not vulnerable to OpenSSL CCS injection
+
+ * Downgrade Attacks:
+       TLS_FALLBACK_SCSV:                 OK - Supported
+
+ * OpenSSL Heartbleed:
+                                          OK - Not vulnerable to Heartbleed
+
+ * ROBOT Attack:
+                                          OK - Not vulnerable, RSA cipher suites not supported.
+
+ * Session Renegotiation:
+       Client Renegotiation DoS Attack:   OK - Not vulnerable
+       Secure Renegotiation:              OK - Supported
+
+ * Elliptic Curve Key Exchange:
+       Supported curves:                  X25519, secp256r1, secp384r1
+       Rejected curves:                   X448, secp160k1, secp160r1, secp160r2, secp192k1, secp192r1, secp224k1, secp224r1, secp256k1, secp521r1, sect163k1, sect163r1, sect163r2, sect193r1, sect193r2, sect233k1, sect233r1, sect239k1, sect283k1, sect283r1, sect409k1, sect409r1, sect571k1, sect571r1
+
+ * TLS Extended Master Secret Extension:
+                                          OK - Supported
+
+
+ SCAN RESULTS FOR KIDS.NATIONALGEOGRAPHIC.COM:443 - 18.172.185.15
+ ----------------------------------------------------------------
+
+ * Certificates Information:
+       Hostname sent for SNI:             kids.nationalgeographic.com
+       Number of cert chains detected:    1 (RSAPublicKey)
+       Cert chain with SNI disabled:      No
+
+
+     Certificate Chain #1 (RSAPublicKey, SNI enabled)
+       SHA1 Fingerprint:                  e19b64badc935a4bcf91cd7494e5fdecf4a00056
+       Common Name:                       editions.geo.hosted.abcotvs.com
+       Issuer:                            Amazon RSA 2048 M04
+       Serial Number:                     5907864709875303037654801134968742255
+       Not Before:                        2025-11-03
+       Not After:                         2026-12-02
+       Public Key Algorithm:              RSAPublicKey
+       Signature Algorithm:               sha256
+       Key Size:                          2048
+       Exponent:                          65537
+       SubjAltName - DNS Names:           ['editions.geo.hosted.abcotvs.com', 'r.abc11.com', 'preview.kids.nationalgeographic.com', 'abc11.com', 'abcnews.com', '*.us-east-1.aws.hosted.abcotvs.com', 'www.abc7news.com', 'natgeo.com', 'preview.6abc.com', 'r.abc7ny.com', 'r.abc7chicago.com', '*.natgeo.com', 'preview.abc11.com', 'preview.abc7ny.com', 'r.abc7news.com', 'preview.goodmorningamerica.com', 'r.abc30.com', 'www.6abc.com', 'www.goodmorningamerica.com', 'r.abc7.com', 'abc7.com', 'www.abc13.com', 'r.abc13.com', 'nationalgeographic.com', 'abc7ny.com', '*.video.nationalgeographic.com', 'abc7chicago.com', 'abcnews.go.com', 'abc13.com', '*.abcnews.com', '*.geo.hosted.abcotvs.com', 'abc30.com', '*.nationalgeographic.com', '*.natgeofe.com', 'ouramericaabc.com', 'natgeofe.com', 'www.abc7.com', '*.abcotvs.net', '*.abcnews.go.com', 'www.abc30.com', 'player.goodmorningamerica.com', '*.goodmorningamerica.com', 'www.abc7chicago.com', 'preview.abc13.com', 'preview.abc7chicago.com', '*.abcotvs.com', 'abc7news.com', 'www.abc11.com', '*.ouramericaabc.com', 'preview.abc7news.com', 'preview.abc7.com', 'r.6abc.com', 'preview.abc30.com', '6abc.com']
+     Trust
+       Android CA Store (16.0.0_r2):      OK - Certificate is trusted
+       Apple CA Store (iOS 18, iPadOS 18, macOS 15, tvOS 18, visionOS 2 and watchOS 11):OK - Certificate is trusted
+       Java CA Store (jdk-13.0.2):        OK - Certificate is trusted
+       Mozilla CA Store (2025-07-27):     OK - Certificate is trusted
+       Windows CA Store (2025-07-27):     OK - Certificate is trusted
+       Symantec 2018 Deprecation:         OK - Not a Symantec-issued certificate
+       Received Chain:                    editions.geo.hosted.abcotvs.com --> Amazon RSA 2048 M04 --> Amazon Root CA 1
+       Verified Chain:                    editions.geo.hosted.abcotvs.com --> Amazon RSA 2048 M04 --> Amazon Root CA 1
+       Received Chain Contains Anchor:    OK - Anchor certificate not sent
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      OK - No SHA1-signed certificate in the verified certificate chain
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          OK - 3 SCTs included
+     OCSP Stapling
+       OCSP Response Status:              SUCCESSFUL
+       Validation w/ Mozilla Store:       OK - Response is trusted
+       Responder Key Hash:                b'\x1fR\x92aV\x82T\x7f\x81f\xd8\x1d=\n\xaa2\\\x87\xdd\x08'
+       Cert Status:                       GOOD
+       Cert Serial Number:                5907864709875303037654801134968742255
+       This Update:                       2025-11-27
+       Next Update:                       2025-12-04
+
+ * SSL 2.0 Cipher Suites:
+     Attempted to connect using 7 cipher suites; the server rejected all cipher suites.
+
+ * SSL 3.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.1 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.2 Cipher Suites:
+     Attempted to connect using 156 cipher suites.
+
+     The server accepted the following 3 cipher suites:
+        TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256       256       ECDH: X25519 (253 bits)
+        TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384             256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256             128       ECDH: secp256r1 (256 bits)
+
+     The group of cipher suites supported by the server has the following properties:
+       Forward Secrecy                    OK - Supported
+       Legacy RC4 Algorithm               OK - Not Supported
+
+
+ * TLS 1.3 Cipher Suites:
+     Attempted to connect using 5 cipher suites.
+
+     The server accepted the following 3 cipher suites:
+        TLS_CHACHA20_POLY1305_SHA256                      256       ECDH: X25519 (253 bits)
+        TLS_AES_256_GCM_SHA384                            256       ECDH: X25519 (253 bits)
+        TLS_AES_128_GCM_SHA256                            128       ECDH: X25519 (253 bits)
+
+
+ * Deflate Compression:
+                                          OK - Compression disabled
+
+ * OpenSSL CCS Injection:
+                                          OK - Not vulnerable to OpenSSL CCS injection
+
+ * Downgrade Attacks:
+       TLS_FALLBACK_SCSV:                 OK - Supported
+
+ * OpenSSL Heartbleed:
+                                          OK - Not vulnerable to Heartbleed
+
+ * ROBOT Attack:
+                                          OK - Not vulnerable, RSA cipher suites not supported.
+
+ * Session Renegotiation:
+       Client Renegotiation DoS Attack:   OK - Not vulnerable
+       Secure Renegotiation:              OK - Supported
+
+ * Elliptic Curve Key Exchange:
+       Supported curves:                  X25519, secp256r1, secp384r1
+       Rejected curves:                   X448, secp160k1, secp160r1, secp160r2, secp192k1, secp192r1, secp224k1, secp224r1, secp256k1, secp521r1, sect163k1, sect163r1, sect163r2, sect193r1, sect193r2, sect233k1, sect233r1, sect239k1, sect283k1, sect283r1, sect409k1, sect409r1, sect571k1, sect571r1
+
+ * TLS Extended Master Secret Extension:
+                                          OK - Supported
+
+
+ SCAN RESULTS FOR WWW.TORONTO.CA:443 - 3.175.64.33
+ -------------------------------------------------
+
+ * Certificates Information:
+       Hostname sent for SNI:             www.toronto.ca
+       Number of cert chains detected:    1 (ECPublicKey)
+       Cert chain with SNI disabled:      No
+
+
+     Certificate Chain #1 (ECPublicKey, SNI enabled)
+       SHA1 Fingerprint:                  fbfef9a81de46d8293bebf16378393b73d4e6546
+       Common Name:                       www.toronto.ca
+       Issuer:                            Entrust OV TLS Issuing ECC CA 1
+       Serial Number:                     90619113046275627064418793281647059433
+       Not Before:                        2025-05-05
+       Not After:                         2026-05-05
+       Public Key Algorithm:              ECPublicKey
+       Signature Algorithm:               sha384
+       Key Size:                          256
+       Curve:                             secp256r1
+       SubjAltName - DNS Names:           ['www.toronto.ca']
+     Trust
+       Android CA Store (16.0.0_r2):      OK - Certificate is trusted
+       Apple CA Store (iOS 18, iPadOS 18, macOS 15, tvOS 18, visionOS 2 and watchOS 11):OK - Certificate is trusted
+       Java CA Store (jdk-13.0.2):        FAILED - Certificate is NOT Trusted: validation failed: candidates exhausted: all candidates exhausted with no interior errors
+       Mozilla CA Store (2025-07-27):     OK - Certificate is trusted
+       Windows CA Store (2025-07-27):     OK - Certificate is trusted
+       Symantec 2018 Deprecation:         OK - Not a Symantec-issued certificate
+       Received Chain:                    www.toronto.ca --> Entrust OV TLS Issuing ECC CA 1 --> SSL.com TLS ECC Root CA 2022
+       Verified Chain:                    www.toronto.ca --> Entrust OV TLS Issuing ECC CA 1 --> SSL.com TLS ECC Root CA 2022
+       Received Chain Contains Anchor:    OK - Anchor certificate not sent
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      OK - No SHA1-signed certificate in the verified certificate chain
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          OK - 3 SCTs included
+     OCSP Stapling
+                                          NOT SUPPORTED - Server did not send back an OCSP response
+
+ * SSL 2.0 Cipher Suites:
+     Attempted to connect using 7 cipher suites; the server rejected all cipher suites.
+
+ * SSL 3.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.1 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.2 Cipher Suites:
+     Attempted to connect using 156 cipher suites.
+
+     The server accepted the following 3 cipher suites:
+        TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256     256       ECDH: X25519 (253 bits)
+        TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384           256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256           128       ECDH: secp256r1 (256 bits)
+
+     The group of cipher suites supported by the server has the following properties:
+       Forward Secrecy                    OK - Supported
+       Legacy RC4 Algorithm               OK - Not Supported
+
+
+ * TLS 1.3 Cipher Suites:
+     Attempted to connect using 5 cipher suites.
+
+     The server accepted the following 3 cipher suites:
+        TLS_CHACHA20_POLY1305_SHA256                      256       ECDH: X25519 (253 bits)
+        TLS_AES_256_GCM_SHA384                            256       ECDH: X25519 (253 bits)
+        TLS_AES_128_GCM_SHA256                            128       ECDH: X25519 (253 bits)
+
+
+ * Deflate Compression:
+                                          OK - Compression disabled
+
+ * OpenSSL CCS Injection:
+                                          OK - Not vulnerable to OpenSSL CCS injection
+
+ * Downgrade Attacks:
+       TLS_FALLBACK_SCSV:                 OK - Supported
+
+ * OpenSSL Heartbleed:
+                                          OK - Not vulnerable to Heartbleed
+
+ * ROBOT Attack:
+                                          OK - Not vulnerable, RSA cipher suites not supported.
+
+ * Session Renegotiation:
+       Client Renegotiation DoS Attack:   OK - Not vulnerable
+       Secure Renegotiation:              OK - Supported
+
+ * Elliptic Curve Key Exchange:
+       Supported curves:                  X25519, secp256r1, secp384r1
+       Rejected curves:                   X448, secp160k1, secp160r1, secp160r2, secp192k1, secp192r1, secp224k1, secp224r1, secp256k1, secp521r1, sect163k1, sect163r1, sect163r2, sect193r1, sect193r2, sect233k1, sect233r1, sect239k1, sect283k1, sect283r1, sect409k1, sect409r1, sect571k1, sect571r1
+
+ * TLS Extended Master Secret Extension:
+                                          OK - Supported
+
+
+ SCAN RESULTS FOR WWW.DUOLINGO.COM:443 - 44.220.104.18
+ -----------------------------------------------------
+
+ * Certificates Information:
+       Hostname sent for SNI:             www.duolingo.com
+       Number of cert chains detected:    1 (RSAPublicKey)
+       Cert chain with SNI disabled:      Yes
+
+
+     Certificate Chain #1 (RSAPublicKey, SNI enabled)
+       SHA1 Fingerprint:                  fd9be819067701931b4f92c44637e02d89224669
+       Common Name:                       *.duolingo.com
+       Issuer:                            Amazon RSA 2048 M01
+       Serial Number:                     10858604209661118317448323147868243297
+       Not Before:                        2025-11-25
+       Not After:                         2026-12-24
+       Public Key Algorithm:              RSAPublicKey
+       Signature Algorithm:               sha256
+       Key Size:                          2048
+       Exponent:                          65537
+       SubjAltName - DNS Names:           ['*.duolingo.com']
+     Trust
+       Android CA Store (16.0.0_r2):      OK - Certificate is trusted
+       Apple CA Store (iOS 18, iPadOS 18, macOS 15, tvOS 18, visionOS 2 and watchOS 11):OK - Certificate is trusted
+       Java CA Store (jdk-13.0.2):        OK - Certificate is trusted
+       Mozilla CA Store (2025-07-27):     OK - Certificate is trusted
+       Windows CA Store (2025-07-27):     OK - Certificate is trusted
+       Symantec 2018 Deprecation:         OK - Not a Symantec-issued certificate
+       Received Chain:                    *.duolingo.com --> Amazon RSA 2048 M01 --> Amazon Root CA 1
+       Verified Chain:                    *.duolingo.com --> Amazon RSA 2048 M01 --> Amazon Root CA 1
+       Received Chain Contains Anchor:    OK - Anchor certificate not sent
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      OK - No SHA1-signed certificate in the verified certificate chain
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          OK - 3 SCTs included
+     OCSP Stapling
+                                          NOT SUPPORTED - Server did not send back an OCSP response
+
+     Certificate Chain with SNI disabled - can be ignored
+       SHA1 Fingerprint:                  fd9be819067701931b4f92c44637e02d89224669
+       Common Name:                       *.duolingo.com
+       Issuer:                            Amazon RSA 2048 M01
+       Serial Number:                     10858604209661118317448323147868243297
+       Not Before:                        2025-11-25
+       Not After:                         2026-12-24
+       Public Key Algorithm:              RSAPublicKey
+       Signature Algorithm:               sha256
+       Key Size:                          2048
+       Exponent:                          65537
+       SubjAltName - DNS Names:           ['*.duolingo.com']
+     Trust
+       Android CA Store (16.0.0_r2):      OK - Certificate is trusted
+       Apple CA Store (iOS 18, iPadOS 18, macOS 15, tvOS 18, visionOS 2 and watchOS 11):OK - Certificate is trusted
+       Java CA Store (jdk-13.0.2):        OK - Certificate is trusted
+       Mozilla CA Store (2025-07-27):     OK - Certificate is trusted
+       Windows CA Store (2025-07-27):     OK - Certificate is trusted
+       Symantec 2018 Deprecation:         OK - Not a Symantec-issued certificate
+       Received Chain:                    *.duolingo.com --> Amazon RSA 2048 M01 --> Amazon Root CA 1
+       Verified Chain:                    *.duolingo.com --> Amazon RSA 2048 M01 --> Amazon Root CA 1
+       Received Chain Contains Anchor:    OK - Anchor certificate not sent
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      OK - No SHA1-signed certificate in the verified certificate chain
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          OK - 3 SCTs included
+     OCSP Stapling
+                                          NOT SUPPORTED - Server did not send back an OCSP response
+
+ * SSL 2.0 Cipher Suites:
+     Attempted to connect using 7 cipher suites; the server rejected all cipher suites.
+
+ * SSL 3.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.1 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.2 Cipher Suites:
+     Attempted to connect using 156 cipher suites.
+
+     The server accepted the following 8 cipher suites:
+        TLS_RSA_WITH_AES_256_GCM_SHA384                   256                      
+        TLS_RSA_WITH_AES_256_CBC_SHA256                   256                      
+        TLS_RSA_WITH_AES_128_GCM_SHA256                   128                      
+        TLS_RSA_WITH_AES_128_CBC_SHA256                   128                      
+        TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384             256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384             256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256             128       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256             128       ECDH: secp256r1 (256 bits)
+
+     The group of cipher suites supported by the server has the following properties:
+       Forward Secrecy                    OK - Supported
+       Legacy RC4 Algorithm               OK - Not Supported
+
+
+ * TLS 1.3 Cipher Suites:
+     Attempted to connect using 5 cipher suites; the server rejected all cipher suites.
+
+ * Deflate Compression:
+                                          OK - Compression disabled
+
+ * OpenSSL CCS Injection:
+                                          OK - Not vulnerable to OpenSSL CCS injection
+
+ * Downgrade Attacks:
+       TLS_FALLBACK_SCSV:                 OK - Supported
+
+ * OpenSSL Heartbleed:
+                                          OK - Not vulnerable to Heartbleed
+
+ * ROBOT Attack:
+                                          OK - Not vulnerable.
+
+ * Session Renegotiation:
+       Client Renegotiation DoS Attack:   OK - Not vulnerable
+       Secure Renegotiation:              OK - Supported
+
+ * Elliptic Curve Key Exchange:
+       Supported curves:                  secp256r1, secp384r1, secp521r1
+       Rejected curves:                   X25519, X448, secp160k1, secp160r1, secp160r2, secp192k1, secp192r1, secp224k1, secp224r1, secp256k1, sect163k1, sect163r1, sect163r2, sect193r1, sect193r2, sect233k1, sect233r1, sect239k1, sect283k1, sect283r1, sect409k1, sect409r1, sect571k1, sect571r1
+
+ * TLS Extended Master Secret Extension:
+                                          OK - Supported
+
+
+ SCAN RESULTS FOR WWW.SFU.CA:443 - 142.58.226.71
+ -----------------------------------------------
+
+ * Certificates Information:
+       Hostname sent for SNI:             www.sfu.ca
+       Number of cert chains detected:    1 (RSAPublicKey)
+       Cert chain with SNI disabled:      Yes
+
+
+     Certificate Chain #1 (RSAPublicKey, SNI enabled)
+       SHA1 Fingerprint:                  15102d7e85f730c8dfbf6c0921921b4c6ac09678
+       Common Name:                       *.sfu.ca
+       Issuer:                            DigiCert Global G2 TLS RSA SHA256 2020 CA1
+       Serial Number:                     1850048925772212863143753875342319561
+       Not Before:                        2025-10-31
+       Not After:                         2026-11-04
+       Public Key Algorithm:              RSAPublicKey
+       Signature Algorithm:               sha256
+       Key Size:                          2048
+       Exponent:                          65537
+       SubjAltName - DNS Names:           ['*.sfu.ca', 'sfu.ca', 'autodiscover.extst.sfu.ca', 'cs-sfuprint.dc.sfu.ca', 'dalton.chem.sfu.ca', 'etherpad.canvas.sfu.ca', 'etherpad.its.sfu.ca', 'files.canvas.sfu.ca', 'files.canvas-stage.sfu.ca', 'files.canvas-test.sfu.ca', 'help.deangrad.sfu.ca', 'internal.fcat.sfu.ca', 'its-extst-fs.extst.sfu.ca', 'lcsso.its.sfu.ca', 'lewis.chem.sfu.ca', 'loncapa-login.chem.sfu.ca', 'loncapa-login.its.sfu.ca', 'mailtest.extst.sfu.ca', 'mse.ensc.sfu.ca', 'nernst.chem.sfu.ca', 'newton.science.sfu.ca', 'proofpoint2.its.sfu.ca', 'proofpoint3.its.sfu.ca', 'proofpoint4.its.sfu.ca', 'proofpoint5.its.sfu.ca', 'proofpointq.its.sfu.ca', 'rce.canvas.sfu.ca', 'rest.maillist.sfu.ca', 'secure.give.sfu.ca', 'sfuprint.mps.sfu.ca', 'sso-test.its.sfu.ca', 'wiki.its.sfu.ca', 'www.cs.sfu.ca', 'www.educ.sfu.ca', 'www.ensc.sfu.ca', 'www.fas.sfu.ca', 'www.fhs.sfu.ca', 'www.math.sfu.ca', 'www.stat.sfu.ca', 'aria-p-autom.sfu.ca', 'aria-p-autom1.sfu.ca', 'aria-p-autom2.sfu.ca', 'aria-p-autom3.sfu.ca', 'aria-p-config.sfu.ca', 'aria-d-autom.sfu.ca', 'aria-d-autom1.sfu.ca', 'aria-d-autom2.sfu.ca', 'aria-d-autom3.sfu.ca', 'aria-d-config.sfu.ca', 'aria-t-autom.sfu.ca', 'aria-t-autom1.sfu.ca', 'aria-t-autom2.sfu.ca', 'aria-t-autom3.sfu.ca', 'aria-t-config.sfu.ca', 'aria-idm.sfu.ca', 'aria-idm1.sfu.ca', 'aria-idm2.sfu.ca', 'aria-idm3.sfu.ca', 'cloud-portal.sfu.ca']
+     Trust
+       Android CA Store (16.0.0_r2):      OK - Certificate is trusted
+       Apple CA Store (iOS 18, iPadOS 18, macOS 15, tvOS 18, visionOS 2 and watchOS 11):OK - Certificate is trusted
+       Java CA Store (jdk-13.0.2):        OK - Certificate is trusted
+       Mozilla CA Store (2025-07-27):     OK - Certificate is trusted
+       Windows CA Store (2025-07-27):     OK - Certificate is trusted
+       Symantec 2018 Deprecation:         OK - Not a Symantec-issued certificate
+       Received Chain:                    *.sfu.ca --> DigiCert Global G2 TLS RSA SHA256 2020 CA1
+       Verified Chain:                    *.sfu.ca --> DigiCert Global G2 TLS RSA SHA256 2020 CA1 --> DigiCert Global Root G2
+       Received Chain Contains Anchor:    OK - Anchor certificate not sent
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      OK - No SHA1-signed certificate in the verified certificate chain
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          OK - 3 SCTs included
+     OCSP Stapling
+                                          NOT SUPPORTED - Server did not send back an OCSP response
+
+     Certificate Chain with SNI disabled - can be ignored
+       SHA1 Fingerprint:                  15102d7e85f730c8dfbf6c0921921b4c6ac09678
+       Common Name:                       *.sfu.ca
+       Issuer:                            DigiCert Global G2 TLS RSA SHA256 2020 CA1
+       Serial Number:                     1850048925772212863143753875342319561
+       Not Before:                        2025-10-31
+       Not After:                         2026-11-04
+       Public Key Algorithm:              RSAPublicKey
+       Signature Algorithm:               sha256
+       Key Size:                          2048
+       Exponent:                          65537
+       SubjAltName - DNS Names:           ['*.sfu.ca', 'sfu.ca', 'autodiscover.extst.sfu.ca', 'cs-sfuprint.dc.sfu.ca', 'dalton.chem.sfu.ca', 'etherpad.canvas.sfu.ca', 'etherpad.its.sfu.ca', 'files.canvas.sfu.ca', 'files.canvas-stage.sfu.ca', 'files.canvas-test.sfu.ca', 'help.deangrad.sfu.ca', 'internal.fcat.sfu.ca', 'its-extst-fs.extst.sfu.ca', 'lcsso.its.sfu.ca', 'lewis.chem.sfu.ca', 'loncapa-login.chem.sfu.ca', 'loncapa-login.its.sfu.ca', 'mailtest.extst.sfu.ca', 'mse.ensc.sfu.ca', 'nernst.chem.sfu.ca', 'newton.science.sfu.ca', 'proofpoint2.its.sfu.ca', 'proofpoint3.its.sfu.ca', 'proofpoint4.its.sfu.ca', 'proofpoint5.its.sfu.ca', 'proofpointq.its.sfu.ca', 'rce.canvas.sfu.ca', 'rest.maillist.sfu.ca', 'secure.give.sfu.ca', 'sfuprint.mps.sfu.ca', 'sso-test.its.sfu.ca', 'wiki.its.sfu.ca', 'www.cs.sfu.ca', 'www.educ.sfu.ca', 'www.ensc.sfu.ca', 'www.fas.sfu.ca', 'www.fhs.sfu.ca', 'www.math.sfu.ca', 'www.stat.sfu.ca', 'aria-p-autom.sfu.ca', 'aria-p-autom1.sfu.ca', 'aria-p-autom2.sfu.ca', 'aria-p-autom3.sfu.ca', 'aria-p-config.sfu.ca', 'aria-d-autom.sfu.ca', 'aria-d-autom1.sfu.ca', 'aria-d-autom2.sfu.ca', 'aria-d-autom3.sfu.ca', 'aria-d-config.sfu.ca', 'aria-t-autom.sfu.ca', 'aria-t-autom1.sfu.ca', 'aria-t-autom2.sfu.ca', 'aria-t-autom3.sfu.ca', 'aria-t-config.sfu.ca', 'aria-idm.sfu.ca', 'aria-idm1.sfu.ca', 'aria-idm2.sfu.ca', 'aria-idm3.sfu.ca', 'cloud-portal.sfu.ca']
+     Trust
+       Android CA Store (16.0.0_r2):      OK - Certificate is trusted
+       Apple CA Store (iOS 18, iPadOS 18, macOS 15, tvOS 18, visionOS 2 and watchOS 11):OK - Certificate is trusted
+       Java CA Store (jdk-13.0.2):        OK - Certificate is trusted
+       Mozilla CA Store (2025-07-27):     OK - Certificate is trusted
+       Windows CA Store (2025-07-27):     OK - Certificate is trusted
+       Symantec 2018 Deprecation:         OK - Not a Symantec-issued certificate
+       Received Chain:                    *.sfu.ca --> DigiCert Global G2 TLS RSA SHA256 2020 CA1
+       Verified Chain:                    *.sfu.ca --> DigiCert Global G2 TLS RSA SHA256 2020 CA1 --> DigiCert Global Root G2
+       Received Chain Contains Anchor:    OK - Anchor certificate not sent
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      OK - No SHA1-signed certificate in the verified certificate chain
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          OK - 3 SCTs included
+     OCSP Stapling
+                                          NOT SUPPORTED - Server did not send back an OCSP response
+
+ * SSL 2.0 Cipher Suites:
+     Attempted to connect using 7 cipher suites; the server rejected all cipher suites.
+
+ * SSL 3.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.1 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.2 Cipher Suites:
+     Attempted to connect using 156 cipher suites.
+
+     The server accepted the following 40 cipher suites:
+        TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256              256                      
+        TLS_RSA_WITH_CAMELLIA_256_CBC_SHA                 256                      
+        TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256              128                      
+        TLS_RSA_WITH_CAMELLIA_128_CBC_SHA                 128                      
+        TLS_RSA_WITH_ARIA_256_GCM_SHA384                  256                      
+        TLS_RSA_WITH_ARIA_128_GCM_SHA256                  128                      
+        TLS_RSA_WITH_AES_256_GCM_SHA384                   256                      
+        TLS_RSA_WITH_AES_256_CCM                          256                      
+        TLS_RSA_WITH_AES_256_CBC_SHA256                   256                      
+        TLS_RSA_WITH_AES_256_CBC_SHA                      256                      
+        TLS_RSA_WITH_AES_128_GCM_SHA256                   128                      
+        TLS_RSA_WITH_AES_128_CCM                          128                      
+        TLS_RSA_WITH_AES_128_CBC_SHA256                   128                      
+        TLS_RSA_WITH_AES_128_CBC_SHA                      128                      
+        TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256       256       ECDH: X25519 (253 bits)
+        TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384        256       ECDH: X25519 (253 bits)
+        TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256        128       ECDH: X25519 (253 bits)
+        TLS_ECDHE_RSA_WITH_ARIA_256_GCM_SHA384            256       ECDH: X25519 (253 bits)
+        TLS_ECDHE_RSA_WITH_ARIA_128_GCM_SHA256            128       ECDH: X25519 (253 bits)
+        TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384             256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384             256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA                256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256             128       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256             128       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA                128       ECDH: secp256r1 (256 bits)
+        TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256         256       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256          256       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA             256       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256          128       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA             128       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_ARIA_256_GCM_SHA384              256       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_ARIA_128_GCM_SHA256              256       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_AES_256_GCM_SHA384               256       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_AES_256_CCM                      256       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_AES_256_CBC_SHA256               256       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_AES_256_CBC_SHA                  256       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_AES_128_GCM_SHA256               128       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_AES_128_CCM                      128       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_AES_128_CBC_SHA256               128       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_AES_128_CBC_SHA                  128       DH (2048 bits) 
+
+     The group of cipher suites supported by the server has the following properties:
+       Forward Secrecy                    OK - Supported
+       Legacy RC4 Algorithm               OK - Not Supported
+
+
+ * TLS 1.3 Cipher Suites:
+     Attempted to connect using 5 cipher suites.
+
+     The server accepted the following 4 cipher suites:
+        TLS_CHACHA20_POLY1305_SHA256                      256       ECDH: X25519 (253 bits)
+        TLS_AES_256_GCM_SHA384                            256       ECDH: X25519 (253 bits)
+        TLS_AES_128_GCM_SHA256                            128       ECDH: X25519 (253 bits)
+        TLS_AES_128_CCM_SHA256                            128       ECDH: X25519 (253 bits)
+
+
+ * Deflate Compression:
+                                          OK - Compression disabled
+
+ * OpenSSL CCS Injection:
+                                          OK - Not vulnerable to OpenSSL CCS injection
+
+ * Downgrade Attacks:
+       TLS_FALLBACK_SCSV:                 OK - Supported
+
+ * OpenSSL Heartbleed:
+                                          OK - Not vulnerable to Heartbleed
+
+ * ROBOT Attack:
+                                          OK - Not vulnerable.
+
+ * Session Renegotiation:
+       Client Renegotiation DoS Attack:   OK - Not vulnerable
+       Secure Renegotiation:              OK - Supported
+
+ * Elliptic Curve Key Exchange:
+       Supported curves:                  X25519, X448, secp256r1, secp384r1, secp521r1
+       Rejected curves:                   secp160k1, secp160r1, secp160r2, secp192k1, secp192r1, secp224k1, secp224r1, secp256k1, sect163k1, sect163r1, sect163r2, sect193r1, sect193r2, sect233k1, sect233r1, sect239k1, sect283k1, sect283r1, sect409k1, sect409r1, sect571k1, sect571r1
+
+ * TLS Extended Master Secret Extension:
+                                          OK - Supported
+
+
+ SCAN RESULTS FOR WWW.CONCORDIA.CA:443 - 132.205.244.70
+ ------------------------------------------------------
+
+ * Certificates Information:
+       Hostname sent for SNI:             www.concordia.ca
+       Number of cert chains detected:    1 (RSAPublicKey)
+       Cert chain with SNI disabled:      Yes
+
+
+     Certificate Chain #1 (RSAPublicKey, SNI enabled)
+       SHA1 Fingerprint:                  bdef8f7b46d3da87cf9f9869b30fe128106cd5c5
+       Common Name:                       www.concordia.ca
+       Issuer:                            GlobalSign RSA OV SSL CA 2018
+       Serial Number:                     34095896862255832981182775890
+       Not Before:                        2025-08-11
+       Not After:                         2026-09-12
+       Public Key Algorithm:              RSAPublicKey
+       Signature Algorithm:               sha256
+       Key Size:                          2048
+       Exponent:                          65537
+       SubjAltName - DNS Names:           ['www.concordia.ca', 'concordia.ca']
+     Trust
+       Android CA Store (16.0.0_r2):      OK - Certificate is trusted
+       Apple CA Store (iOS 18, iPadOS 18, macOS 15, tvOS 18, visionOS 2 and watchOS 11):OK - Certificate is trusted
+       Java CA Store (jdk-13.0.2):        OK - Certificate is trusted
+       Mozilla CA Store (2025-07-27):     OK - Certificate is trusted
+       Windows CA Store (2025-07-27):     OK - Certificate is trusted
+       Symantec 2018 Deprecation:         OK - Not a Symantec-issued certificate
+       Received Chain:                    www.concordia.ca --> GlobalSign RSA OV SSL CA 2018
+       Verified Chain:                    www.concordia.ca --> GlobalSign RSA OV SSL CA 2018 --> GlobalSign
+       Received Chain Contains Anchor:    OK - Anchor certificate not sent
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      OK - No SHA1-signed certificate in the verified certificate chain
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          OK - 3 SCTs included
+     OCSP Stapling
+                                          NOT SUPPORTED - Server did not send back an OCSP response
+
+     Certificate Chain with SNI disabled - can be ignored
+       SHA1 Fingerprint:                  bdef8f7b46d3da87cf9f9869b30fe128106cd5c5
+       Common Name:                       www.concordia.ca
+       Issuer:                            GlobalSign RSA OV SSL CA 2018
+       Serial Number:                     34095896862255832981182775890
+       Not Before:                        2025-08-11
+       Not After:                         2026-09-12
+       Public Key Algorithm:              RSAPublicKey
+       Signature Algorithm:               sha256
+       Key Size:                          2048
+       Exponent:                          65537
+       SubjAltName - DNS Names:           ['www.concordia.ca', 'concordia.ca']
+     Trust
+       Android CA Store (16.0.0_r2):      OK - Certificate is trusted
+       Apple CA Store (iOS 18, iPadOS 18, macOS 15, tvOS 18, visionOS 2 and watchOS 11):OK - Certificate is trusted
+       Java CA Store (jdk-13.0.2):        OK - Certificate is trusted
+       Mozilla CA Store (2025-07-27):     OK - Certificate is trusted
+       Windows CA Store (2025-07-27):     OK - Certificate is trusted
+       Symantec 2018 Deprecation:         OK - Not a Symantec-issued certificate
+       Received Chain:                    www.concordia.ca --> GlobalSign RSA OV SSL CA 2018
+       Verified Chain:                    www.concordia.ca --> GlobalSign RSA OV SSL CA 2018 --> GlobalSign
+       Received Chain Contains Anchor:    OK - Anchor certificate not sent
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      OK - No SHA1-signed certificate in the verified certificate chain
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          OK - 3 SCTs included
+     OCSP Stapling
+                                          NOT SUPPORTED - Server did not send back an OCSP response
+
+ * SSL 2.0 Cipher Suites:
+     Attempted to connect using 7 cipher suites; the server rejected all cipher suites.
+
+ * SSL 3.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.1 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.2 Cipher Suites:
+     Attempted to connect using 156 cipher suites.
+
+     The server accepted the following 46 cipher suites:
+        TLS_RSA_WITH_SEED_CBC_SHA                         128                      
+        TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256              256                      
+        TLS_RSA_WITH_CAMELLIA_256_CBC_SHA                 256                      
+        TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256              128                      
+        TLS_RSA_WITH_CAMELLIA_128_CBC_SHA                 128                      
+        TLS_RSA_WITH_ARIA_256_GCM_SHA384                  256                      
+        TLS_RSA_WITH_ARIA_128_GCM_SHA256                  128                      
+        TLS_RSA_WITH_AES_256_GCM_SHA384                   256                      
+        TLS_RSA_WITH_AES_256_CCM_8                        128                      
+        TLS_RSA_WITH_AES_256_CCM                          256                      
+        TLS_RSA_WITH_AES_256_CBC_SHA256                   256                      
+        TLS_RSA_WITH_AES_256_CBC_SHA                      256                      
+        TLS_RSA_WITH_AES_128_GCM_SHA256                   128                      
+        TLS_RSA_WITH_AES_128_CCM_8                        128                      
+        TLS_RSA_WITH_AES_128_CCM                          128                      
+        TLS_RSA_WITH_AES_128_CBC_SHA256                   128                      
+        TLS_RSA_WITH_AES_128_CBC_SHA                      128                      
+        TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256       256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384        256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256        128       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_ARIA_256_GCM_SHA384            256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_ARIA_128_GCM_SHA256            128       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384             256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384             256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA                256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256             128       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256             128       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA                128       ECDH: secp256r1 (256 bits)
+        TLS_DHE_RSA_WITH_SEED_CBC_SHA                     128       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256         256       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256          256       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA             256       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256          128       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA             128       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_ARIA_256_GCM_SHA384              256       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_ARIA_128_GCM_SHA256              256       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_AES_256_GCM_SHA384               256       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_AES_256_CCM_8                    256       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_AES_256_CCM                      256       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_AES_256_CBC_SHA256               256       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_AES_256_CBC_SHA                  256       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_AES_128_GCM_SHA256               128       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_AES_128_CCM_8                    128       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_AES_128_CCM                      128       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_AES_128_CBC_SHA256               128       DH (2048 bits) 
+        TLS_DHE_RSA_WITH_AES_128_CBC_SHA                  128       DH (2048 bits) 
+
+     The group of cipher suites supported by the server has the following properties:
+       Forward Secrecy                    OK - Supported
+       Legacy RC4 Algorithm               OK - Not Supported
+
+
+ * TLS 1.3 Cipher Suites:
+     Attempted to connect using 5 cipher suites.
+
+     The server accepted the following 3 cipher suites:
+        TLS_CHACHA20_POLY1305_SHA256                      256       ECDH: X25519 (253 bits)
+        TLS_AES_256_GCM_SHA384                            256       ECDH: X25519 (253 bits)
+        TLS_AES_128_GCM_SHA256                            128       ECDH: X25519 (253 bits)
+
+
+ * Deflate Compression:
+                                          OK - Compression disabled
+
+ * OpenSSL CCS Injection:
+                                          OK - Not vulnerable to OpenSSL CCS injection
+
+ * Downgrade Attacks:
+       TLS_FALLBACK_SCSV:                 OK - Supported
+
+ * OpenSSL Heartbleed:
+                                          OK - Not vulnerable to Heartbleed
+
+ * ROBOT Attack:
+                                          OK - Not vulnerable.
+
+ * Session Renegotiation:
+       Client Renegotiation DoS Attack:   OK - Not vulnerable
+       Secure Renegotiation:              OK - Supported
+
+ * Elliptic Curve Key Exchange:
+       Supported curves:                  X25519, X448, secp256r1, secp384r1, secp521r1
+       Rejected curves:                   secp160k1, secp160r1, secp160r2, secp192k1, secp192r1, secp224k1, secp224r1, secp256k1, sect163k1, sect163r1, sect163r2, sect193r1, sect193r2, sect233k1, sect233r1, sect239k1, sect283k1, sect283r1, sect409k1, sect409r1, sect571k1, sect571r1
+
+ * TLS Extended Master Secret Extension:
+                                          OK - Supported
+
+ SCANS COMPLETED IN 36.255605 S
+ ------------------------------
+
+       Wrote JSON output to "/Users/aimen/Desktop/scans/sslyze/all_hosts.json".
+
+ COMPLIANCE AGAINST TLS CONFIGURATION
+ ------------------------------------
+
+    Checking results against Mozilla's "intermediate" configuration. See https://ssl-config.mozilla.org/ for more details.
+
+    www.canada.ca:443: FAILED - Not compliant.
+        * ciphersuites: TLS 1.3 cipher suites {'TLS_AES_128_CCM_SHA256', 'TLS_AES_128_CCM_8_SHA256'} are supported, but should be rejected.
+        * ciphers: Cipher suites {'TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384', 'TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256'} are supported, but should be rejected.
+        * tls_curves: TLS curves {'secp521r1'} are supported, but should be rejected.
+
+    www.codecademy.com:443: FAILED - Not compliant.
+        * tls_curves: TLS curves {'secp521r1'} are supported, but should be rejected.
+
+    www.udemy.com:443: FAILED - Not compliant.
+        * ciphers: Cipher suites {'TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA', 'TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384', 'TLS_RSA_WITH_AES_128_CBC_SHA', 'TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256', 'TLS_RSA_WITH_AES_128_GCM_SHA256', 'TLS_RSA_WITH_AES_256_CBC_SHA', 'TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA', 'TLS_RSA_WITH_AES_256_GCM_SHA384', 'TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256', 'TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA', 'TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384', 'TLS_RSA_WITH_AES_128_CBC_SHA256', 'TLS_RSA_WITH_AES_256_CBC_SHA256', 'TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA'} are supported, but should be rejected.
+        * tls_curves: TLS curves {'secp521r1'} are supported, but should be rejected.
+
+    www.bcit.ca:443: FAILED - Not compliant.
+        * maximum_certificate_lifespan: Certificate life span is 383 days, should be less than 366.
+        * ciphers: Cipher suites {'TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384', 'TLS_RSA_WITH_AES_128_GCM_SHA256', 'TLS_RSA_WITH_AES_256_CBC_SHA', 'TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA', 'TLS_RSA_WITH_AES_256_GCM_SHA384', 'TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA', 'TLS_RSA_WITH_AES_256_CBC_SHA256', 'TLS_RSA_WITH_AES_128_CBC_SHA256', 'TLS_RSA_WITH_AES_128_CBC_SHA', 'TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256'} are supported, but should be rejected.
+
+    www.vancouver.ca:443: FAILED - Not compliant.
+        * ciphers: Cipher suites {'TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA', 'TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384', 'TLS_RSA_WITH_AES_128_CBC_SHA', 'TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256', 'TLS_RSA_WITH_AES_128_GCM_SHA256', 'TLS_RSA_WITH_AES_256_CBC_SHA', 'TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA', 'TLS_RSA_WITH_AES_256_GCM_SHA384', 'TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256', 'TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA', 'TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384', 'TLS_RSA_WITH_AES_128_CBC_SHA256', 'TLS_RSA_WITH_AES_256_CBC_SHA256', 'TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA'} are supported, but should be rejected.
+        * tls_curves: TLS curves {'secp521r1'} are supported, but should be rejected.
+
+    www.queensu.ca:443: FAILED - Not compliant.
+        * ciphers: Cipher suites {'TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384', 'TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256'} are supported, but should be rejected.
+        * tls_curves: TLS curves {'secp521r1'} are supported, but should be rejected.
+
+    www.khanacademy.org:443: FAILED - Not compliant.
+        * maximum_certificate_lifespan: Certificate life span is 396 days, should be less than 366.
+
+    www.mcgill.ca:443: FAILED - Not compliant.
+        * maximum_certificate_lifespan: Certificate life span is 370 days, should be less than 366.
+        * ciphers: Cipher suites {'TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384', 'TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256'} are supported, but should be rejected.
+
+    www.ubc.ca:443: FAILED - Not compliant.
+        * maximum_certificate_lifespan: Certificate life span is 395 days, should be less than 366.
+
+    kids.nationalgeographic.com:443: FAILED - Not compliant.
+        * maximum_certificate_lifespan: Certificate life span is 394 days, should be less than 366.
+
+    www.toronto.ca:443: OK - Compliant.
+
+    www.duolingo.com:443: FAILED - Not compliant.
+        * maximum_certificate_lifespan: Certificate life span is 394 days, should be less than 366.
+        * ciphers: Cipher suites {'TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384', 'TLS_RSA_WITH_AES_128_GCM_SHA256', 'TLS_RSA_WITH_AES_256_GCM_SHA384', 'TLS_RSA_WITH_AES_128_CBC_SHA256', 'TLS_RSA_WITH_AES_256_CBC_SHA256', 'TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256'} are supported, but should be rejected.
+        * tls_curves: TLS curves {'secp521r1'} are supported, but should be rejected.
+
+    www.sfu.ca:443: FAILED - Not compliant.
+        * maximum_certificate_lifespan: Certificate life span is 369 days, should be less than 366.
+        * ciphersuites: TLS 1.3 cipher suites {'TLS_AES_128_CCM_SHA256'} are supported, but should be rejected.
+        * ciphers: Cipher suites {'TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384', 'TLS_RSA_WITH_AES_128_GCM_SHA256', 'TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA', 'TLS_RSA_WITH_ARIA_128_GCM_SHA256', 'TLS_RSA_WITH_ARIA_256_GCM_SHA384', 'TLS_RSA_WITH_CAMELLIA_128_CBC_SHA', 'TLS_RSA_WITH_AES_128_CBC_SHA256', 'TLS_DHE_RSA_WITH_AES_128_CCM', 'TLS_RSA_WITH_AES_256_CBC_SHA256', 'TLS_RSA_WITH_AES_256_CCM', 'TLS_DHE_RSA_WITH_AES_128_CBC_SHA256', 'TLS_DHE_RSA_WITH_ARIA_128_GCM_SHA256', 'TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256', 'TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA', 'TLS_RSA_WITH_AES_256_CBC_SHA', 'TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384', 'TLS_DHE_RSA_WITH_AES_256_CBC_SHA', 'TLS_RSA_WITH_AES_128_CBC_SHA', 'TLS_ECDHE_RSA_WITH_ARIA_256_GCM_SHA384', 'TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA', 'TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256', 'TLS_DHE_RSA_WITH_AES_256_CBC_SHA256', 'TLS_DHE_RSA_WITH_AES_256_CCM', 'TLS_DHE_RSA_WITH_ARIA_256_GCM_SHA384', 'TLS_RSA_WITH_AES_128_CCM', 'TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256', 'TLS_DHE_RSA_WITH_AES_128_CBC_SHA', 'TLS_RSA_WITH_CAMELLIA_256_CBC_SHA', 'TLS_RSA_WITH_AES_256_GCM_SHA384', 'TLS_ECDHE_RSA_WITH_ARIA_128_GCM_SHA256', 'TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256', 'TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA', 'TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256', 'TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256'} are supported, but should be rejected.
+        * tls_curves: TLS curves {'X448', 'secp521r1'} are supported, but should be rejected.
+
+    www.concordia.ca:443: FAILED - Not compliant.
+        * maximum_certificate_lifespan: Certificate life span is 396 days, should be less than 366.
+        * ciphers: Cipher suites {'TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384', 'TLS_RSA_WITH_AES_128_GCM_SHA256', 'TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA', 'TLS_RSA_WITH_ARIA_128_GCM_SHA256', 'TLS_RSA_WITH_ARIA_256_GCM_SHA384', 'TLS_RSA_WITH_CAMELLIA_128_CBC_SHA', 'TLS_RSA_WITH_AES_128_CBC_SHA256', 'TLS_DHE_RSA_WITH_AES_128_CCM', 'TLS_RSA_WITH_AES_256_CBC_SHA256', 'TLS_RSA_WITH_AES_256_CCM', 'TLS_DHE_RSA_WITH_AES_128_CBC_SHA256', 'TLS_DHE_RSA_WITH_ARIA_128_GCM_SHA256', 'TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256', 'TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA', 'TLS_RSA_WITH_AES_256_CCM_8', 'TLS_RSA_WITH_AES_256_CBC_SHA', 'TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384', 'TLS_DHE_RSA_WITH_AES_256_CBC_SHA', 'TLS_DHE_RSA_WITH_AES_256_CCM_8', 'TLS_RSA_WITH_AES_128_CBC_SHA', 'TLS_ECDHE_RSA_WITH_ARIA_256_GCM_SHA384', 'TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA', 'TLS_RSA_WITH_AES_128_CCM_8', 'TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256', 'TLS_DHE_RSA_WITH_AES_256_CBC_SHA256', 'TLS_DHE_RSA_WITH_AES_256_CCM', 'TLS_DHE_RSA_WITH_SEED_CBC_SHA', 'TLS_DHE_RSA_WITH_ARIA_256_GCM_SHA384', 'TLS_RSA_WITH_SEED_CBC_SHA', 'TLS_RSA_WITH_AES_128_CCM', 'TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256', 'TLS_DHE_RSA_WITH_AES_128_CBC_SHA', 'TLS_RSA_WITH_CAMELLIA_256_CBC_SHA', 'TLS_RSA_WITH_AES_256_GCM_SHA384', 'TLS_ECDHE_RSA_WITH_ARIA_128_GCM_SHA256', 'TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256', 'TLS_DHE_RSA_WITH_AES_128_CCM_8', 'TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA', 'TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256', 'TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256'} are supported, but should be rejected.
+        * tls_curves: TLS curves {'X448', 'secp521r1'} are supported, but should be rejected.
+
+SSLyze scan failed
+=== Running Nmap scan for each host ===
+--- Scanning www.ubc.ca with Nmap ---
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-11-27 21:08 -0800
+Nmap scan report for www.ubc.ca (18.172.185.76)
+Host is up (0.013s latency).
+Other addresses for www.ubc.ca (not scanned): 2600:9000:26ce:7e00:11:df9d:7c80:93a1 2600:9000:26ce:1000:11:df9d:7c80:93a1 2600:9000:26ce:1200:11:df9d:7c80:93a1 2600:9000:26ce:3e00:11:df9d:7c80:93a1 2600:9000:26ce:2c00:11:df9d:7c80:93a1 2600:9000:26ce:f000:11:df9d:7c80:93a1 2600:9000:26ce:fe00:11:df9d:7c80:93a1 2600:9000:26ce:ac00:11:df9d:7c80:93a1 18.172.185.6 18.172.185.2 18.172.185.56
+rDNS record for 18.172.185.76: server-18-172-185-76.yvr52.r.cloudfront.net
+
+PORT    STATE SERVICE
+443/tcp open  https
+| ssl-enum-ciphers: 
+|   TLSv1.3: 
+|     ciphers: 
+|       TLS_AKE_WITH_AES_128_GCM_SHA256 (X25519MLKEM768) - A
+|       TLS_AKE_WITH_AES_256_GCM_SHA384 (X25519MLKEM768) - A
+|       TLS_AKE_WITH_CHACHA20_POLY1305_SHA256 (X25519MLKEM768) - A
+|     cipher preference: server
+|_  least strength: A
+
+Nmap done: 1 IP address (1 host up) scanned in 0.60 seconds
+--- Scanning www.sfu.ca with Nmap ---
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-11-27 21:08 -0800
+Nmap scan report for www.sfu.ca (142.58.226.71)
+Host is up (0.020s latency).
+rDNS record for 142.58.226.71: 4dlabs.ca
+
+PORT    STATE SERVICE
+443/tcp open  https
+| ssl-enum-ciphers: 
+|   TLSv1.2: 
+|     ciphers: 
+|       TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (ecdh_x25519) - A
+|       TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (dh 2048) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (ecdh_x25519) - A
+|       TLS_DHE_RSA_WITH_AES_256_CCM (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_256_CBC_SHA (dh 2048) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (ecdh_x25519) - A
+|       TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_128_CBC_SHA (dh 2048) - A
+|       TLS_RSA_WITH_AES_256_GCM_SHA384 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_GCM_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_CBC_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CBC_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_CBC_SHA (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CBC_SHA (rsa 2048) - A
+|       TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (ecdh_x25519) - A
+|       TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (dh 2048) - A
+|       TLS_ECDHE_RSA_WITH_ARIA_256_GCM_SHA384 (ecdh_x25519) - A
+|       TLS_DHE_RSA_WITH_ARIA_256_GCM_SHA384 (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_128_CCM (dh 2048) - A
+|       TLS_ECDHE_RSA_WITH_ARIA_128_GCM_SHA256 (ecdh_x25519) - A
+|       TLS_DHE_RSA_WITH_ARIA_128_GCM_SHA256 (dh 2048) - A
+|       TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384 (ecdh_x25519) - A
+|       TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256 (dh 2048) - A
+|       TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256 (ecdh_x25519) - A
+|       TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256 (dh 2048) - A
+|       TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA (dh 2048) - A
+|       TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA (dh 2048) - A
+|       TLS_RSA_WITH_AES_256_CCM (rsa 2048) - A
+|       TLS_RSA_WITH_ARIA_256_GCM_SHA384 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CCM (rsa 2048) - A
+|       TLS_RSA_WITH_ARIA_128_GCM_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_CAMELLIA_256_CBC_SHA (rsa 2048) - A
+|       TLS_RSA_WITH_CAMELLIA_128_CBC_SHA (rsa 2048) - A
+|     compressors: 
+|       NULL
+|     cipher preference: server
+|   TLSv1.3: 
+|     ciphers: 
+|       TLS_AKE_WITH_AES_256_GCM_SHA384 (ecdh_x25519) - A
+|       TLS_AKE_WITH_CHACHA20_POLY1305_SHA256 (ecdh_x25519) - A
+|       TLS_AKE_WITH_AES_128_GCM_SHA256 (ecdh_x25519) - A
+|       TLS_AKE_WITH_AES_128_CCM_SHA256 (ecdh_x25519) - A
+|     cipher preference: server
+|_  least strength: A
+
+Nmap done: 1 IP address (1 host up) scanned in 12.62 seconds
+--- Scanning www.vancouver.ca with Nmap ---
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-11-27 21:08 -0800
+Nmap scan report for www.vancouver.ca (172.65.90.7)
+Host is up (0.019s latency).
+Other addresses for www.vancouver.ca (not scanned): 172.65.90.5 172.65.90.6 172.65.90.4
+
+PORT    STATE SERVICE
+443/tcp open  https
+| ssl-enum-ciphers: 
+|   TLSv1.2: 
+|     ciphers: 
+|       TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (ecdh_x25519) - A
+|       TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 (ecdh_x25519) - A
+|       TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (ecdh_x25519) - A
+|       TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (ecdh_x25519) - A
+|       TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 (ecdh_x25519) - A
+|       TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (ecdh_x25519) - A
+|       TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (ecdh_x25519) - A
+|       TLS_RSA_WITH_AES_128_CBC_SHA (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CBC_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_GCM_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_CBC_SHA (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_CBC_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_GCM_SHA384 (rsa 2048) - A
+|     compressors: 
+|       NULL
+|     cipher preference: client
+|   TLSv1.3: 
+|     ciphers: 
+|       TLS_AKE_WITH_AES_128_GCM_SHA256 (X25519MLKEM768) - A
+|       TLS_AKE_WITH_AES_256_GCM_SHA384 (X25519MLKEM768) - A
+|       TLS_AKE_WITH_CHACHA20_POLY1305_SHA256 (X25519MLKEM768) - A
+|     cipher preference: client
+|_  least strength: A
+
+Nmap done: 1 IP address (1 host up) scanned in 2.46 seconds
+--- Scanning www.canada.ca with Nmap ---
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-11-27 21:08 -0800
+Nmap scan report for www.canada.ca (23.49.140.216)
+Host is up (0.013s latency).
+Other addresses for www.canada.ca (not scanned): 2600:140a:1000:382::fe9 2600:140a:1000:38a::fe9
+rDNS record for 23.49.140.216: a23-49-140-216.deploy.static.akamaitechnologies.com
+
+PORT    STATE SERVICE
+443/tcp open  https
+| ssl-enum-ciphers: 
+|   TLSv1.2: 
+|     ciphers: 
+|       TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (secp256r1) - A
+|     compressors: 
+|       NULL
+|     cipher preference: server
+|   TLSv1.3: 
+|     ciphers: 
+|       TLS_AKE_WITH_AES_128_CCM_8_SHA256 (secp256r1) - A
+|       TLS_AKE_WITH_AES_128_CCM_SHA256 (secp256r1) - A
+|       TLS_AKE_WITH_AES_128_GCM_SHA256 (secp256r1) - A
+|       TLS_AKE_WITH_AES_256_GCM_SHA384 (secp256r1) - A
+|     cipher preference: server
+|_  least strength: A
+
+Nmap done: 1 IP address (1 host up) scanned in 0.89 seconds
+--- Scanning www.mcgill.ca with Nmap ---
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-11-27 21:08 -0800
+Nmap scan report for www.mcgill.ca (132.216.98.100)
+Host is up (0.079s latency).
+rDNS record for 132.216.98.100: webcache.it.mcgill.ca
+
+PORT    STATE SERVICE
+443/tcp open  https
+| ssl-enum-ciphers: 
+|   TLSv1.2: 
+|     ciphers: 
+|       TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (secp256r1) - A
+|     compressors: 
+|       NULL
+|     cipher preference: server
+|   TLSv1.3: 
+|     ciphers: 
+|       TLS_AKE_WITH_AES_128_GCM_SHA256 (secp256r1) - A
+|       TLS_AKE_WITH_AES_256_GCM_SHA384 (secp256r1) - A
+|       TLS_AKE_WITH_CHACHA20_POLY1305_SHA256 (secp256r1) - A
+|     cipher preference: server
+|_  least strength: A
+
+Nmap done: 1 IP address (1 host up) scanned in 3.70 seconds
+--- Scanning www.toronto.ca with Nmap ---
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-11-27 21:08 -0800
+Nmap scan report for www.toronto.ca (3.175.64.37)
+Host is up (0.020s latency).
+Other addresses for www.toronto.ca (not scanned): 3.175.64.33 3.175.64.121 3.175.64.123
+rDNS record for 3.175.64.37: server-3-175-64-37.yvr52.r.cloudfront.net
+
+PORT    STATE SERVICE
+443/tcp open  https
+| ssl-enum-ciphers: 
+|   TLSv1.3: 
+|     ciphers: 
+|       TLS_AKE_WITH_AES_128_GCM_SHA256 (X25519MLKEM768) - A
+|       TLS_AKE_WITH_AES_256_GCM_SHA384 (X25519MLKEM768) - A
+|       TLS_AKE_WITH_CHACHA20_POLY1305_SHA256 (X25519MLKEM768) - A
+|     cipher preference: server
+|_  least strength: A
+
+Nmap done: 1 IP address (1 host up) scanned in 0.61 seconds
+--- Scanning www.queensu.ca with Nmap ---
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-11-27 21:08 -0800
+Nmap scan report for www.queensu.ca (13.107.226.70)
+Host is up (0.023s latency).
+Other addresses for www.queensu.ca (not scanned): 2620:1ec:bdf::70 2620:1ec:46::70 13.107.253.70
+
+PORT    STATE SERVICE
+443/tcp open  https
+| ssl-enum-ciphers: 
+|   TLSv1.2: 
+|     ciphers: 
+|       TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (secp256r1) - A
+|       TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (dh 2048) - A
+|     compressors: 
+|       NULL
+|     cipher preference: server
+|   TLSv1.3: 
+|     ciphers: 
+|       TLS_AKE_WITH_AES_256_GCM_SHA384 (secp256r1) - A
+|       TLS_AKE_WITH_AES_128_GCM_SHA256 (secp256r1) - A
+|     cipher preference: server
+|_  least strength: A
+
+Nmap done: 1 IP address (1 host up) scanned in 1.96 seconds
+--- Scanning www.bcit.ca with Nmap ---
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-11-27 21:08 -0800
+Nmap scan report for www.bcit.ca (142.232.230.11)
+Host is up (0.025s latency).
+rDNS record for 142.232.230.11: ip-142-232-230-11.ptr.bcit.ca
+
+PORT    STATE SERVICE
+443/tcp open  https
+| ssl-enum-ciphers: 
+|   TLSv1.2: 
+|     ciphers: 
+|       TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (secp256r1) - A
+|       TLS_RSA_WITH_AES_128_GCM_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_GCM_SHA384 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CBC_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_CBC_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CBC_SHA (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_CBC_SHA (rsa 2048) - A
+|     compressors: 
+|       NULL
+|     cipher preference: server
+|   TLSv1.3: 
+|     ciphers: 
+|       TLS_AKE_WITH_AES_128_GCM_SHA256 (secp256r1) - A
+|       TLS_AKE_WITH_AES_256_GCM_SHA384 (secp256r1) - A
+|       TLS_AKE_WITH_CHACHA20_POLY1305_SHA256 (secp256r1) - A
+|     cipher preference: server
+|_  least strength: A
+
+Nmap done: 1 IP address (1 host up) scanned in 2.34 seconds
+--- Scanning www.khanacademy.org with Nmap ---
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-11-27 21:08 -0800
+Nmap scan report for www.khanacademy.org (151.101.21.42)
+Host is up (0.022s latency).
+
+PORT    STATE SERVICE
+443/tcp open  https
+| ssl-enum-ciphers: 
+|   TLSv1.2: 
+|     ciphers: 
+|       TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (ecdh_x25519) - A
+|     compressors: 
+|       NULL
+|     cipher preference: client
+|   TLSv1.3: 
+|     ciphers: 
+|       TLS_AKE_WITH_AES_128_GCM_SHA256 (secp256r1) - A
+|       TLS_AKE_WITH_AES_256_GCM_SHA384 (secp256r1) - A
+|       TLS_AKE_WITH_CHACHA20_POLY1305_SHA256 (secp256r1) - A
+|     cipher preference: server
+|_  least strength: A
+
+Nmap done: 1 IP address (1 host up) scanned in 1.42 seconds
+--- Scanning www.udemy.com with Nmap ---
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-11-27 21:09 -0800
+Nmap scan report for www.udemy.com (104.16.143.237)
+Host is up (0.015s latency).
+Other addresses for www.udemy.com (not scanned): 104.16.142.237 2606:4700::6810:8eed 2606:4700::6810:8fed
+
+PORT    STATE SERVICE
+443/tcp open  https
+| ssl-enum-ciphers: 
+|   TLSv1.2: 
+|     ciphers: 
+|       TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (ecdh_x25519) - A
+|       TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 (ecdh_x25519) - A
+|       TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (ecdh_x25519) - A
+|       TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (ecdh_x25519) - A
+|       TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 (ecdh_x25519) - A
+|       TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (ecdh_x25519) - A
+|       TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (ecdh_x25519) - A
+|       TLS_RSA_WITH_AES_128_CBC_SHA (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CBC_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_GCM_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_CBC_SHA (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_CBC_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_GCM_SHA384 (rsa 2048) - A
+|     compressors: 
+|       NULL
+|     cipher preference: client
+|   TLSv1.3: 
+|     ciphers: 
+|       TLS_AKE_WITH_AES_128_GCM_SHA256 (X25519MLKEM768) - A
+|       TLS_AKE_WITH_AES_256_GCM_SHA384 (X25519MLKEM768) - A
+|       TLS_AKE_WITH_CHACHA20_POLY1305_SHA256 (X25519MLKEM768) - A
+|     cipher preference: client
+|_  least strength: A
+
+Nmap done: 1 IP address (1 host up) scanned in 1.93 seconds
+--- Scanning www.duolingo.com with Nmap ---
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-11-27 21:09 -0800
+Nmap scan report for www.duolingo.com (3.233.248.62)
+Host is up (0.083s latency).
+Other addresses for www.duolingo.com (not scanned): 52.4.181.128 98.88.177.123 34.230.142.187 18.212.43.15 3.233.111.83 35.174.148.58 3.220.93.54
+rDNS record for 3.233.248.62: ec2-3-233-248-62.compute-1.amazonaws.com
+
+PORT    STATE SERVICE
+443/tcp open  https
+| ssl-enum-ciphers: 
+|   TLSv1.2: 
+|     ciphers: 
+|       TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (secp256r1) - A
+|       TLS_RSA_WITH_AES_128_GCM_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CBC_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_GCM_SHA384 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_CBC_SHA256 (rsa 2048) - A
+|     compressors: 
+|       NULL
+|     cipher preference: server
+|_  least strength: A
+
+Nmap done: 1 IP address (1 host up) scanned in 5.34 seconds
+--- Scanning www.codecademy.com with Nmap ---
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-11-27 21:09 -0800
+Nmap scan report for www.codecademy.com (104.17.183.120)
+Host is up (0.014s latency).
+Other addresses for www.codecademy.com (not scanned): 104.17.184.120 2606:4700::6811:b878 2606:4700::6811:b778
+
+PORT    STATE SERVICE
+443/tcp open  https
+| ssl-enum-ciphers: 
+|   TLSv1.2: 
+|     ciphers: 
+|       TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (ecdh_x25519) - A
+|       TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (ecdh_x25519) - A
+|       TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (ecdh_x25519) - A
+|     compressors: 
+|       NULL
+|     cipher preference: server
+|   TLSv1.3: 
+|     ciphers: 
+|       TLS_AKE_WITH_AES_128_GCM_SHA256 (X25519MLKEM768) - A
+|       TLS_AKE_WITH_AES_256_GCM_SHA384 (X25519MLKEM768) - A
+|       TLS_AKE_WITH_CHACHA20_POLY1305_SHA256 (X25519MLKEM768) - A
+|     cipher preference: client
+|_  least strength: A
+
+Nmap done: 1 IP address (1 host up) scanned in 1.57 seconds
+--- Scanning kids.nationalgeographic.com with Nmap ---
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-11-27 21:09 -0800
+Nmap scan report for kids.nationalgeographic.com (18.172.185.125)
+Host is up (0.013s latency).
+Other addresses for kids.nationalgeographic.com (not scanned): 18.172.185.15 18.172.185.127 18.172.185.50
+rDNS record for 18.172.185.125: server-18-172-185-125.yvr52.r.cloudfront.net
+
+PORT    STATE SERVICE
+443/tcp open  https
+| ssl-enum-ciphers: 
+|   TLSv1.3: 
+|     ciphers: 
+|       TLS_AKE_WITH_AES_128_GCM_SHA256 (X25519MLKEM768) - A
+|       TLS_AKE_WITH_AES_256_GCM_SHA384 (X25519MLKEM768) - A
+|       TLS_AKE_WITH_CHACHA20_POLY1305_SHA256 (X25519MLKEM768) - A
+|     cipher preference: server
+|_  least strength: A
+
+Nmap done: 1 IP address (1 host up) scanned in 0.55 seconds
+--- Scanning www.concordia.ca with Nmap ---
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-11-27 21:09 -0800
+Nmap scan report for www.concordia.ca (132.205.244.70)
+Host is up (0.083s latency).
+
+PORT    STATE SERVICE
+443/tcp open  https
+| ssl-enum-ciphers: 
+|   TLSv1.2: 
+|     ciphers: 
+|       TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (secp256r1) - A
+|       TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (dh 2048) - A
+|       TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (dh 2048) - A
+|       TLS_RSA_WITH_AES_256_GCM_SHA384 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_GCM_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_CBC_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CBC_SHA256 (rsa 2048) - A
+|       TLS_DHE_RSA_WITH_AES_256_CCM_8 (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_256_CCM (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_128_CCM_8 (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_128_CCM (dh 2048) - A
+|       TLS_RSA_WITH_AES_256_CCM_8 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_256_CCM (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CCM_8 (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CCM (rsa 2048) - A
+|       TLS_ECDHE_RSA_WITH_ARIA_256_GCM_SHA384 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_ARIA_128_GCM_SHA256 (secp256r1) - A
+|       TLS_DHE_RSA_WITH_ARIA_256_GCM_SHA384 (dh 2048) - A
+|       TLS_DHE_RSA_WITH_ARIA_128_GCM_SHA256 (dh 2048) - A
+|       TLS_RSA_WITH_ARIA_256_GCM_SHA384 (rsa 2048) - A
+|       TLS_RSA_WITH_ARIA_128_GCM_SHA256 (rsa 2048) - A
+|       TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384 (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256 (secp256r1) - A
+|       TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256 (dh 2048) - A
+|       TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256 (dh 2048) - A
+|       TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256 (rsa 2048) - A
+|       TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256 (rsa 2048) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (secp256r1) - A
+|       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (secp256r1) - A
+|       TLS_DHE_RSA_WITH_AES_256_CBC_SHA (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_128_CBC_SHA (dh 2048) - A
+|       TLS_RSA_WITH_AES_256_CBC_SHA (rsa 2048) - A
+|       TLS_RSA_WITH_AES_128_CBC_SHA (rsa 2048) - A
+|       TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA (dh 2048) - A
+|       TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA (dh 2048) - A
+|       TLS_RSA_WITH_CAMELLIA_256_CBC_SHA (rsa 2048) - A
+|       TLS_RSA_WITH_CAMELLIA_128_CBC_SHA (rsa 2048) - A
+|       TLS_DHE_RSA_WITH_SEED_CBC_SHA (dh 2048) - A
+|       TLS_RSA_WITH_SEED_CBC_SHA (rsa 2048) - A
+|     compressors: 
+|       NULL
+|     cipher preference: server
+|   TLSv1.3: 
+|     ciphers: 
+|       TLS_AKE_WITH_AES_256_GCM_SHA384 (secp256r1) - A
+|       TLS_AKE_WITH_CHACHA20_POLY1305_SHA256 (secp256r1) - A
+|       TLS_AKE_WITH_AES_128_GCM_SHA256 (secp256r1) - A
+|     cipher preference: server
+|_  least strength: A
+
+Nmap done: 1 IP address (1 host up) scanned in 18.98 seconds
+=== All scans completed ===
