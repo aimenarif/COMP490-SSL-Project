@@ -1,15 +1,19 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Get the absolute path to the folder where the script lives
+#!/usr/bin/env bash
+set -euo pipefail
+
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
+
+PROJECT_ROOT="$SCRIPT_DIR"
 
 SCANS_DIR="$PROJECT_ROOT/scans"
 TARGETS_FILE="$PROJECT_ROOT/targets.txt"
 
-# Make sure subfolders exist
 mkdir -p "$SCANS_DIR/sslyze" "$SCANS_DIR/nmap"
+
+
 
 # Read all hosts from targets.txt
 HOSTS=()
